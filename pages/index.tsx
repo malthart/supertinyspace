@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="py-8 px-8 w-full">
         <div className="max-w-screen-md">
-          <h2 className="mb-4 text-4xl tracking-wide font-normal text-gray-900 dark:text-white">hey. im malthe—a design & research generalist interested in engineering and collaborative design. im currently <a className="italic">freelancing</a>.</h2>
+          <h2 className="mb-4 sm:text-2xl text-4xl tracking-wide font-normal text-gray-900 dark:text-white">hey. im malthe—a design & research generalist interested in engineering and collaborative design. im currently <a className="italic">freelancing</a>.</h2>
           <p className="mb-4 text-2xl tracking-wide font-normal text-gray-900 dark:text-white">text me if you need anything +45 52225854.</p>
         </div>
       </div>

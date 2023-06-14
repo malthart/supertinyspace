@@ -49,6 +49,9 @@ export default function Home() {
           <div>
             <img className="h-auto max-w-full rounded-lg" src="/postevand.png" alt="" />
           </div>
+          <div>
+            <img className="h-auto max-w-full rounded-lg" src="/buoy-boatgps.png" alt="" />
+          </div>
         </div>
         <div className="grid gap-4">
           <div>
@@ -59,6 +62,9 @@ export default function Home() {
           </div>
           <div>
             <img className="h-auto max-w-full rounded-lg" src="/parealogo.png" alt="" />
+          </div>
+          <div>
+            <img className="h-auto max-w-full rounded-lg" src="/lunar_ux.png" alt="" />
           </div>
         </div>
       </div>

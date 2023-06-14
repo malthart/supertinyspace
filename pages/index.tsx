@@ -9,8 +9,7 @@ export default function Home() {
 
       <div className="py-8 px-8 w-full">
         <div className="max-w-screen-md">
-          <h2 className="mb-4 text-2xl tracking-wide font-normal text-gray-900 dark:text-white">hey. im malthe—a design & research generalist interested in engineering and collaborative design. im currently <a className="italic">freelancing</a>.</h2>
-          <p className="mb-4 text-2xl tracking-wide font-normal text-gray-900 dark:text-white">i will occasionally do small animations for free. text me if you need anything +45 52225854.</p>
+          <h2 className="mb-4 text-5xl tracking-wide font-normal text-gray-900 dark:text-white">hey. im malthe—a design & research generalist interested in engineering and collaborative design. im currently <a className="italic">freelancing</a>.</h2>
         </div>
       </div>
 
@@ -24,6 +23,9 @@ export default function Home() {
           </div>
           <div>
             <img className="h-auto max-w-full rounded-lg" src="/custimy.png" alt="" />
+          </div>
+          <div>
+            <video autoPlay muted loop className="h-auto max-w-full rounded-lg" src="/zoomies.mp4"/>
           </div>
         </div>
         <div className="grid gap-4">

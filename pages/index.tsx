@@ -10,7 +10,7 @@ export default function Home() {
 
       <div className="py-8 px-8 w-full">
         <Draggable>
-          <div className="max-w-screen-md">
+          <div className="max-w-screen-md hover:cursor-grab active:cursor-grabbing">
             <h2 className="mb-4 text-5xl tracking-wide font-normal text-gray-900 dark:text-white">hey. im malthe—a design & research generalist interested in engineering and collaborative design. im currently <a className="italic">freelancing</a>.</h2>
           </div>
         </Draggable>
@@ -19,12 +19,12 @@ export default function Home() {
       <div className="py-8 px-8 grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="grid gap-4">
           <Draggable>
-            <div>
+            <div className="hover:cursor-grab active:cursor-grabbing">
               <img className="h-auto max-w-full rounded-lg pointer-events-none" src="/T-800.png" alt="" />
             </div>
           </Draggable>
           <Draggable>
-          <div>
+          <div className="cursor-grab">
             <img className="h-auto max-w-full rounded-lg pointer-events-none" src="/buoyemail.png" alt="generative AI" />
           </div>
           </Draggable>

@@ -9,23 +9,20 @@ export default function Home() {
     <main className="align-middle justify-between bg-gray-50">
 
       <div className="py-8 px-8 w-full">
-        <div className="max-w-screen-md hover:cursor-grab">
+        <div className="max-w-screen-md">
           <h2 className="mb-4 text-5xl sm-text-m tracking-wide font-normal text-gray-900 dark:text-white">hey. im malthe—a design & research generalist interested in engineering and collaborative design. im currently <a className="italic">freelancing</a>.</h2>
         </div>
       </div>
 
       <div className="py-8 px-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+       
         <div className="grid gap-4">
-          <Draggable>
-            <div className="hover:cursor-grab active:cursor-grabbing">
-              <img className="h-auto max-w-full rounded-lg pointer-events-none" src="/T-800.png" alt="" />
-            </div>
-          </Draggable>
-          <Draggable>
-            <div className="cursor-grab">
-              <img className="h-auto max-w-full rounded-lg pointer-events-none" src="/buoyemail.png" alt="generative AI" />
-            </div>
-          </Draggable>
+          <div className="">
+            <img className="h-auto max-w-full rounded-lg pointer-events-none" src="/T-800.png" alt="" />
+          </div>
+          <div className="">
+            <img className="h-auto max-w-full rounded-lg pointer-events-none" src="/buoyemail.png" alt="generative AI" />
+          </div>
           <div>
             <img className="h-auto max-w-full rounded-lg" src="/custimy.png" alt="" />
           </div>
@@ -33,6 +30,7 @@ export default function Home() {
             <video autoPlay muted loop className="h-auto max-w-full rounded-lg" src="/zoomies.mp4" />
           </div>
         </div>
+
         <div className="grid gap-4">
           <div>
             <img className="h-auto max-w-full rounded-lg" src="/lunarkrypto.png" alt="" />
@@ -44,6 +42,7 @@ export default function Home() {
             <img className="h-auto max-w-full rounded-lg" src="/goal-animation.gif" alt="" />
           </div>
         </div>
+
         <div className="grid gap-4">
           <div>
             <img className="h-auto max-w-full rounded-lg" src="/risegoals.png" alt="" />
@@ -58,6 +57,7 @@ export default function Home() {
             <img className="h-auto max-w-full rounded-lg" src="/buoy-boatgps.png" alt="" />
           </div>
         </div>
+        
         <div className="grid gap-4">
           <div>
             <img className="h-auto max-w-full rounded-lg" src="/buoydeck.gif" alt="" />

@@ -6,14 +6,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="align-middle justify-between">
+    <main className="align-middle justify-between bg-gray-50">
 
       <div className="py-8 px-8 w-full">
-        <Draggable>
-          <div className="max-w-screen-md hover:cursor-grab active:cursor-grabbing">
-            <h2 className="mb-4 text-5xl tracking-wide font-normal text-gray-900 dark:text-white">hey. im malthe—a design & research generalist interested in engineering and collaborative design. im currently <a className="italic">freelancing</a>.</h2>
-          </div>
-        </Draggable>
+        <div className="max-w-screen-md hover:cursor-grab">
+          <h2 className="mb-4 text-5xl sm-text-m tracking-wide font-normal text-gray-900 dark:text-white">hey. im malthe—a design & research generalist interested in engineering and collaborative design. im currently <a className="italic">freelancing</a>.</h2>
+        </div>
       </div>
 
       <div className="py-8 px-8 grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -78,21 +76,21 @@ export default function Home() {
 
       <div className="fixed bottom-0 left-6 lg:left-8 right-6 lg:right-8 py-6 lg:py-8 z-10">
         <div className="w-full p-3 lg:p-4 max-w-[1040px] border border-gray-200 bg-[#ffffffc1] backdrop-blur-lg flex justify-between items-center mx-auto rounded-md">
-          
+
           <div className="flex items-center gap-x-3">
-            <a href="#" className="hover:scale-150 transition-all"><img color="dark" alt="Logo" loading="lazy" width="320" height="100" decoding="async" data-nimg="1" className="h-[40px] w-auto" src="/weeee.png"/></a>
-            <span className="hidden lg:block bg-gray-100 border border-gray-200 rounded text-gray-900 text-[12px] font-medium tracking-[0.23px] px-2 py-0.5 mt-0.5">Malthe&aposs Codespace</span>
+            <a href="#" className="hover:scale-150 transition-all"><img color="dark" alt="Logo" loading="lazy" width="320" height="100" decoding="async" data-nimg="1" className="h-[40px] w-auto" src="/weeee.png" /></a>
+            <span className="hidden lg:block bg-gray-100 border border-gray-200 rounded text-gray-900 text-[12px] font-medium tracking-[0.23px] px-2 py-0.5 mt-0.5">{`Malthe's Codespace`}</span>
           </div>
 
           <div className="hidden lg:flex gap-x-4">
             <button className="hover:scale-110 transition-all">
-            <a href="https://www.supertiny.space"><p className="text-2 text-bold">Gallery</p></a>
+              <a href="https://www.supertiny.space"><p className="text-2 text-bold">Gallery</p></a>
             </button>
             <button className="hover:scale-110 transition-all">
-            <a target="_blank" href="https://read.cv/malthart" rel="noopener noreferrer"><p className="text-2 opacity-50">CV</p></a>
+              <a target="_blank" href="https://read.cv/malthart" rel="noopener noreferrer"><p className="text-2 opacity-50">CV</p></a>
             </button>
             <button className="hover:scale-110 transition-all">
-            <a target="_blank" href="https://www.producthead.xyz" rel="noopener noreferrer"><p className="text-2 opacity-50">Writing </p></a>
+              <a target="_blank" href="https://www.producthead.xyz" rel="noopener noreferrer"><p className="text-2 opacity-50">Writing </p></a>
             </button>
           </div>
           <div className="flex gap-x-3 justify-end w-[186px]">

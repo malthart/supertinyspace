@@ -16,7 +16,7 @@ export default function Home() {
         <div className="max-w-screen-md">
           <h2 className="mb-4 text-base sm-text-base tracking-wide font-normal text-gray-900 dark:text-white">Malthe Alexius Hartmann <br /> Built two banking experiences, a service marketplace & a boat insurance platform <br /><a className="text-gray-500">Based in</a> Copenhagen, Denmark</h2>
         </div>
-        
+
         <Drawer.Root shouldScaleBackground>
           <Drawer.Trigger asChild>
             <button>Open Drawer</button>
@@ -31,7 +31,7 @@ export default function Home() {
                     Unstyled drawer for React.
                   </Drawer.Title>
                   <p className="text-zinc-600 mb-2">
-                    I'm testing out this drawer component. There will be
+                    I&apos;m testing out this drawer component. There will be
                     content here at some point.
                   </p>
                   <p className="text-zinc-600 mb-8">
@@ -57,6 +57,7 @@ export default function Home() {
             </Drawer.Content>
           </Drawer.Portal>
         </Drawer.Root>
+
       </div>
 
       {/* <div className="py-8 px-8 grid grid-cols-2 md:grid-cols-4 gap-4">

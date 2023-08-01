@@ -9,12 +9,14 @@ export default function Home() {
   const [open, setOpen] = useState(false);
   return (
     <main className="align-middle justify-between">
-<Navbar/>
+
+      <Navbar />
 
       <div className="py-8 px-8 w-full">
         <div className="max-w-screen-md">
           <h2 className="mb-4 text-base sm-text-base tracking-wide font-normal text-gray-900 dark:text-white">Malthe Alexius Hartmann <br /> Built two banking experiences, a service marketplace & a boat insurance platform <br /><a className="text-gray-500">Based in</a> Copenhagen, Denmark</h2>
         </div>
+        
         <Drawer.Root shouldScaleBackground>
           <Drawer.Trigger asChild>
             <button>Open Drawer</button>

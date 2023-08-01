@@ -12,6 +12,7 @@ export default function Document() {
           content="Built two banking experiences, a service marketplace & a boat insurance platform. Based in Copenhagen, Denmark."
           key="desc"
         />
+        <meta property="og:image" content="" />
       </Head>
       <body className="bg-gray-50">
         <Main />

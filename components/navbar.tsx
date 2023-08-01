@@ -6,7 +6,7 @@ const Navbar = () => {
             <div className="w-full p-3 lg:p-4 max-w-[1040px] border border-gray-200 bg-[#ffffffc1] backdrop-blur-lg flex justify-between items-center mx-auto rounded-md">
 
                 <div className="flex items-center gap-x-3">
-                    <a href="#" className="hover:scale-110 transition-all"><img color="dark" alt="Logo" loading="lazy" width="320" height="100" decoding="async" data-nimg="1" className="h-[40px] w-auto" src="/favicon.ico" /></a>
+                    <a href="#" className="transition-all"><img color="dark" alt="Logo" loading="lazy" width="320" height="100" decoding="async" data-nimg="1" className="h-[40px] w-auto" src="/favicon.ico" /></a>
                     {/* <span className="hidden lg:block bg-gray-100 border border-gray-200 rounded text-gray-900 text-[12px] font-medium tracking-[0.23px] px-2 py-0.5 mt-0.5">{`Malthe's Codespace`}</span> */}
                 </div>
 

@@ -31,8 +31,8 @@ export default function Home() {
                     Unstyled drawer for React.
                   </Drawer.Title>
                   <p className="text-zinc-600 mb-2">
-                    This component can be used as a replacement for a Dialog on
-                    mobile and tablet devices.
+                    I'm testing out this drawer component. There will be
+                    content here at some point.
                   </p>
                   <p className="text-zinc-600 mb-8">
                     It uses{" "}

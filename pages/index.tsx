@@ -73,21 +73,9 @@ export default function Home() {
                           Shouter
                         </Drawer.Title>
                         <p className="text-zinc-600 mb-2">
-                          I first met Simon & Adam in Århus while studying my masters degree.
-                          At first, we were just vibing out in their
-                          office in the Marina of Århus, talking about what Shouter was,
-                          what Adam & Simon wanted it to become, and how I could
-                          help them achieve what they wanted. Ultimately, they offered me to join their
-                          company as their Head of Product Design & even CPO, which
-                          I declined. Settling for a Product Design role.
-                        </p>
-                        <p className="text-zinc-600 mb-2">
-                          With that position the responsbility of completely taking
-                          ownership and running the entire product line was given to me.
-                        </p>
-                        <p className="text-zinc-600 mb-2">
-                          Running product included product strategy, establishing a structured
-                          way to run conversations with eachother (SCRUM was very helpful with this),
+                          At Shouter I was given the responsbility to completely take ownership and run the entire product line.
+                          Running product included user- and market research, product strategy, establishing a structured
+                          way to run conversations with eachother (SCRUM was very helpful),
                           product analytics, while also designing full time and mentoring
                           {" "}
                           <a

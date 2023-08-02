@@ -61,7 +61,7 @@ export default function Home() {
             <a>{" "}
               <Drawer.Root shouldScaleBackground>
                 <Drawer.Trigger asChild>
-                  <button>a service marketplace,</button>
+                  <button className="underline">a service marketplace,</button>
                 </Drawer.Trigger>
                 <Drawer.Portal>
                   <Drawer.Overlay className="fixed inset-0 bg-black/40" />
@@ -69,7 +69,7 @@ export default function Home() {
                     <div className="p-4 bg-white rounded-t-[10px] flex-1">
                       <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                       <div className="max-w-md mx-auto">
-                        <Drawer.Title className="font-medium mb-4 underline">
+                        <Drawer.Title className="font-medium mb-4">
                           Shouter
                         </Drawer.Title>
                         <p className="text-zinc-600 mb-2">

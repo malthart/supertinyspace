@@ -19,7 +19,7 @@ export default function Home() {
             <a>{" "}
               <Drawer.Root shouldScaleBackground>
                 <Drawer.Trigger asChild>
-                  <button>two banking experiences,</button>
+                  <button className="">two banking experiences,</button>
                 </Drawer.Trigger>
                 <Drawer.Portal>
                   <Drawer.Overlay className="fixed inset-0 bg-black/40" />
@@ -31,7 +31,7 @@ export default function Home() {
                           Lunar & RISE
                         </Drawer.Title>
                         <p className="text-zinc-600 mb-2">
-                          More information of how I worked and what I learned in this period coming soon.
+                          I started working at Lunar back in 2019.
                         </p>
                         <p className="text-zinc-600 mb-8">
                           Check out Lunar{" "}
@@ -61,7 +61,7 @@ export default function Home() {
             <a>{" "}
               <Drawer.Root shouldScaleBackground>
                 <Drawer.Trigger asChild>
-                  <button className="underline">a service marketplace,</button>
+                  <button className="">a service marketplace,</button>
                 </Drawer.Trigger>
                 <Drawer.Portal>
                   <Drawer.Overlay className="fixed inset-0 bg-black/40" />
@@ -96,7 +96,7 @@ export default function Home() {
             <a>{" "}
               <Drawer.Root shouldScaleBackground>
                 <Drawer.Trigger asChild>
-                  <button>a padel app</button>
+                  <button className="">a padel app</button>
                 </Drawer.Trigger>
                 <Drawer.Portal>
                   <Drawer.Overlay className="fixed inset-0 bg-black/40" />
@@ -108,7 +108,16 @@ export default function Home() {
                           Parea
                         </Drawer.Title>
                         <p className="text-zinc-600 mb-2">
-                          More information of how I worked and what I learned in this period coming soon.
+                          Being around some of the nation's best developers makes you wonder
+                          if software development is something to pursue when they speak so highly
+                          about the trade. I pursued it and built Parea; a small iOS Native app
+                          built almost completely by using Apple's SwiftUI Framework. Parea helps
+                          travelling quality-focused Padel athletes find the top Padel courts around the world.
+                        </p>
+                        <p className="text-zinc-600 mb-2">
+                          Parea is still a work in progress, and opportunities such as point handling,
+                          deeper integration into the Apple eco-system and a Watch-companion has been
+                          discovered through my own user- and market research in the field.
                         </p>
                         <p className="text-zinc-600 mb-8">
                           Check out Parea{" "}

@@ -14,12 +14,12 @@ export default function Home() {
 
       <div className="py-8 px-8 w-full">
         <div className="max-w-screen-md">
-          <h2 className="mb-4 text-base sm-text-base tracking-wide font-normal text-gray-900 dark:text-white">Malthe Alexius Hartmann <br /> Built
+          <h2 className="mb-4 text-base sm-text-base tracking-wide font-normal text-gray-900 dark:text-white">Malthe Alexius Hartmann — Work in progress <br /> Built
 
             <a>{" "}
               <Drawer.Root shouldScaleBackground>
                 <Drawer.Trigger asChild>
-                  <button className="">two banking experiences,</button>
+                  <button className="">a crypto trading platform,</button>
                 </Drawer.Trigger>
                 <Drawer.Portal>
                   <Drawer.Overlay className="fixed inset-0 bg-black/40" />
@@ -28,28 +28,62 @@ export default function Home() {
                       <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                       <div className="max-w-md mx-auto">
                         <Drawer.Title className="font-medium mb-4">
-                          Lunar & RISE
+                          Lunar Block
                         </Drawer.Title>
                         <p className="text-zinc-600 mb-2">
-                          I started working at Lunar back in 2019.
+                          I facilitated the necessary initial qualitative discovery research and created the first
+                          prototypes that eventually led to the launch of Lunar Block: A crypto trading
+                          platform part of the Lunar eco-system connected to your private bank account.
                         </p>
                         <p className="text-zinc-600 mb-8">
-                          Check out Lunar{" "}
+                          Check out Lunar Block{" "}
                           <a
-                            href="https://www.lunar.app/"
+                            href="https://www.lunar.app/en/personal/crypto"
                             className="underline"
                             target="_blank"
                           >
                             here
-                          </a>{" "}
-                          & the funky branding of RISE{" "}
+                          </a>.{" "}
+                        </p>
+                      </div>
+                    </div>
+                  </Drawer.Content>
+                </Drawer.Portal>
+              </Drawer.Root>
+            </a>
+
+            <a>{" "}
+              <Drawer.Root shouldScaleBackground>
+                <Drawer.Trigger asChild>
+                  <button className="">an investment platform,</button>
+                </Drawer.Trigger>
+                <Drawer.Portal>
+                  <Drawer.Overlay className="fixed inset-0 bg-black/40" />
+                  <Drawer.Content className="bg-zinc-100 flex flex-col rounded-t-[10px] h-[96%] mt-24 fixed bottom-0 left-0 right-0">
+                    <div className="p-4 bg-white rounded-t-[10px] flex-1">
+                      <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
+                      <div className="max-w-md mx-auto">
+                        <Drawer.Title className="font-medium mb-4">
+                          Lunar Invest
+                        </Drawer.Title>
+                        <p className="text-zinc-600 mb-2">
+                          Worked as the Product Designer in Squad Apollo. Overseing everything design, UX
+                          & market- & user research in collaboration with engineers and product.
+                        </p>
+                        <p className="text-zinc-600 mb-2">
+                          I pushed for raising awareness & recognition of the female user group of Lunar Invest.
+                          Leading to substantial research findings that changed the over-all marketing approach
+                          for the product.
+                        </p>
+                        <p className="text-zinc-600 mb-8">
+                          Check out Lunar Invest{" "}
                           <a
-                            href="https://www.risecard.eu"
+                            href="https://www.lunar.app/en/personal/invest"
                             className="underline"
                             target="_blank"
                           >
-                            here.
-                          </a>
+                            here
+                          </a>.{" "}
                         </p>
                       </div>
                     </div>
@@ -86,6 +120,9 @@ export default function Home() {
                             Lorenzo, the Jr. Product Designer
                           </a>.{" "}
                         </p>
+                        <p className="text-zinc-600 mb-2">
+                          Miss you, Dan.
+                        </p>
                       </div>
                     </div>
                   </Drawer.Content>
@@ -111,7 +148,7 @@ export default function Home() {
                           Being around some of the nation's best developers makes you wonder
                           if software development is something to pursue when they speak so highly
                           about the trade. I pursued it and built Parea; a small iOS Native app
-                          built almost completely by using Apple's SwiftUI Framework. Parea helps
+                          built almost completely by using Apple's SwiftUI Framework. Parea initially helped
                           travelling quality-focused Padel athletes find the top Padel courts around the world.
                         </p>
                         <p className="text-zinc-600 mb-2">
@@ -127,7 +164,7 @@ export default function Home() {
                             target="_blank"
                           >
                             here
-                          </a>
+                          </a>.
                         </p>
                       </div>
                     </div>
@@ -161,7 +198,7 @@ export default function Home() {
                             target="_blank"
                           >
                             here
-                          </a>
+                          </a>.
                         </p>
                       </div>
                     </div>
@@ -177,7 +214,7 @@ export default function Home() {
       </div>
 
 
-      {/* <div className="py-8 px-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    {/* <div className="py-8 px-8 grid grid-cols-2 md:grid-cols-4 gap-4">
 
         <div className="grid gap-4">
           <div className="">

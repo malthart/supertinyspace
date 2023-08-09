@@ -145,10 +145,10 @@ export default function Home() {
                           Parea
                         </Drawer.Title>
                         <p className="text-zinc-600 mb-2">
-                          Being around some of the nation's best developers makes you wonder
+                          Being around some of the nation&apos;s best developers makes you wonder
                           if software development is something to pursue when they speak so highly
                           about the trade. I pursued it and built Parea; a small iOS Native app
-                          built almost completely by using Apple's SwiftUI Framework. Parea initially helped
+                          built almost completely by using Apple&apos;s SwiftUI Framework. Parea initially helped
                           travelling quality-focused Padel athletes find the top Padel courts around the world.
                         </p>
                         <p className="text-zinc-600 mb-2">

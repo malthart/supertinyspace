@@ -33,7 +33,7 @@ export default function Agency() {
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="mr-2 h-4 w-4">
                             <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
                             <line x1="3" x2="21" y1="9" y2="9"></line></svg> Design Systems</h3>
-                    <p className="text-muted-foreground">Throughout the entirety of my career I've boiled down the best process of creating an actually valuable design system.</p>
+                    <p className="text-muted-foreground">Throughout the entirety of my career I&apos;ve boiled down the best process of creating an actually valuable design system.</p>
                 </div>
 
                 <div className="border-border w-full rounded-lg border px-3 py-4 backdrop-blur-[2px] md:p-6 relative">
@@ -53,7 +53,7 @@ export default function Agency() {
                     <h3 className="font-cal mb-1 flex items-center text-xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="mr-2 h-4 w-4"><rect width="18" height="12" x="3" y="8" rx="1"></rect>
                         <path d="M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3"></path>
                         <path d="M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3"></path></svg>Icons, Branding & Motion</h3>
-                    <p className="text-muted-foreground">There's no good design without depth. I'll consult and design icons, assist you in branding & create moving animations.</p>
+                    <p className="text-muted-foreground">There&apos;s no good design without depth. I&apos;ll consult and design icons, assist you in branding & create moving animations.</p>
                 </div>
 
                 <div className="border-border w-full rounded-lg border px-3 py-4 backdrop-blur-[2px] md:p-6 relative">
@@ -61,7 +61,7 @@ export default function Agency() {
                     <h3 className="font-cal mb-1 flex items-center text-xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="mr-2 h-4 w-4"><rect width="18" height="12" x="3" y="8" rx="1"></rect>
                         <path d="M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3"></path>
                         <path d="M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3"></path></svg>User Research, Product Analytics & UX</h3>
-                    <p className="text-muted-foreground">Don't threat about unanswered question or data. I'll help you make sense of it from an academic approach.</p>
+                    <p className="text-muted-foreground">Don&apos;t threat about unanswered question or data. I&apos;ll help you make sense of it from an academic approach.</p>
                 </div>
 
             </div>

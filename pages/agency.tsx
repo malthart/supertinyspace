@@ -45,7 +45,7 @@ export default function Agency() {
                         <path d="M12 2v1"></path>
                         <path d="m4.929 4.929.707.707"></path>
                         <path d="M12 12v6"></path></svg>Landing Pages</h3>
-                    <p className="text-muted-foreground">Enjoy design & front-end engineering. From first the first commit on Github, to running changes. E-Commerce & CRM is possible.</p>
+                    <p className="text-muted-foreground">Enjoy design & front-end engineering. From the first commit on Github, to running changes. E-Commerce & CRM is possible.</p>
                 </div>
 
                 <div className="border-border w-full rounded-lg border px-3 py-4 backdrop-blur-[2px] md:p-6 relative">

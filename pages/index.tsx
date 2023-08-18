@@ -304,7 +304,7 @@ export default function Home() {
                   its attractive, usable, lacking friendlyness or
                   juice. Maze, a usability tool, is amazing at this,
                   but sometimes, just sitting down next to someone
-                  and hand them a phone with a prototype on it
+                  and handing them a phone with a prototype on it
                   can take you a long way.
                 </p>
                 <p className="text-zinc-600 font-medium">

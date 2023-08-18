@@ -251,7 +251,7 @@ export default function Home() {
                   and involvement? Ego. Fear of rejection and critism.
                   Something that I have long left behind me.
                 </p>
-                <img className="mb-2" src="/IMG_3744 2.png"></img>
+                <img className="mb-2" src="/IMG_3744 2.png" alt=""/>
                 <p className="text-zinc-600 mb-6 text-xs">
                   Rasmus, Lead of Growth, Thomas V, Lead of Consumer,
                   Thomas, Lead of Squad Apollo, and me, jamming out in a
@@ -276,7 +276,7 @@ export default function Home() {
                 For me, a workshop is the equivilent of Play: A place
                 where everyone can participate and the same level.
                 </p>
-                <img className="mb-2" src="/me.png"></img>
+                <img className="mb-2" src="/me.png" alt=""/>
                 <p className="text-zinc-600 mb-6 text-xs">
                   Me staring at the results of a &apos;Play&apos; session.
                 </p>

@@ -19,33 +19,86 @@ export default function Home() {
             <a>{" "}
               <Drawer.Root shouldScaleBackground>
                 <Drawer.Trigger asChild>
-                  <button className="">a crypto trading platform,</button>
+                  <button>a crypto trading platform,</button>
                 </Drawer.Trigger>
                 <Drawer.Portal>
                   <Drawer.Overlay className="fixed inset-0 bg-black/40" />
-                  <Drawer.Content className="bg-zinc-100 flex flex-col rounded-t-[10px] h-[96%] mt-24 fixed bottom-0 left-0 right-0">
-                    <div className="p-4 bg-white rounded-t-[10px] flex-1">
+                  <Drawer.Content className="bg-white flex flex-col fixed bottom-0 left-0 right-0 h-[96%] rounded-t-[10px]">
+                    <div className="max-w-md w-full mx-auto flex flex-col overflow-auto p-4 rounded-t-[10px]">
                       <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
-                      <div className="max-w-md mx-auto">
-                        <Drawer.Title className="font-medium mb-4">
-                          Lunar Block
-                        </Drawer.Title>
-                        <p className="text-zinc-600 mb-2">
-                          I facilitated the necessary initial qualitative discovery research and created the first
-                          prototypes that eventually led to the launch of Lunar Block: A crypto trading
-                          platform part of the Lunar eco-system connected to your private bank account.
-                        </p>
-                        <p className="text-zinc-600 mb-8">
-                          Check out Lunar Block{" "}
-                          <a
-                            href="https://www.lunar.app/en/personal/crypto"
-                            className="underline"
-                            target="_blank"
-                          >
-                            here
-                          </a>.{" "}
-                        </p>
-                      </div>
+                      <Drawer.Title className="font-medium mb-4">
+                        Lunar Block
+                      </Drawer.Title>
+                      <p className="text-zinc-600 mb-2">
+                        I conducted foundational qualitative exploratory research and spearheaded the conception
+                        of the initial prototypes, culminating in the successful launch of Lunar Block — an
+                        integral component of the Lunar ecosystem that interfaces with personal bank accounts
+                        for cryptocurrency trading.
+                      </p>
+                      <p className="text-zinc-600 mb-2">
+                        My initial research uncovered a few areas of interest for the product launch, such as:
+                      </p>
+                      <p className="text-zinc-600 mb-6">
+                        1. The annoyance of moving money from a bank account to a wallet/exchange, to then
+                        start trading. Users wanted to trade directly from their bank account.
+                      </p>
+                      <img className="mb-2" src="/sketch_crypto.png" alt="" />
+                      <p className="text-zinc-600 mb-6 text-xs">
+                        A basic rough sketch was utilized to illustrate a simple idea: skipping the usual
+                        money-moving step and making a way to buy straight from the bank account.
+                      </p>
+                      <p className="text-zinc-600 mb-2">
+                        2. Denmark is a tax-nation. Which means we put tax on everything and crypto is no exception.
+                        Some users knew from past experiences, that taxes on crypto is top of the line complexity due to the lacking
+                        adoption of crypto as an investment tool from government-pov.
+                      </p>
+                      <p className="text-zinc-600 mb-6">
+                        3. Trading price and its transparency is important. I asked user what they would thought about a concept where
+                        Lunar works with three of the biggest crypto exhanges: Coinbase, Kraken & Bitstamp, so to be able to get the
+                        lowest possible trade price everytime. All users I interviewed using Coinbase, and other platforms told me
+                        that they would immediately switch to Lunar if this was the case. It was. Depending on the customer relationsship,
+                        they only needed to pay between 1 and 2.5% in trading fees. All other fees such as transfer fees, exchanges fees,
+                        etc. We completely removed.
+                      </p>
+                      <img className="mb-2" src="/research_crypto.png" alt="" />
+                      <p className="text-zinc-600 mb-6 text-xs">
+                        To ensure the successful development of Lunar Block, a comprehensive grasp of its prerequisites,
+                        feasibility, and limitations is essential. I supported senior leadership by conducting research
+                        into conceptual viability, thereby contributing substantively to project delineation. This
+                        preparatory phase serves as the bedrock for subsequent exploratory efforts.
+                      </p>
+                      <p className="text-zinc-600 mb-2">
+                        <a className="font-medium">I feel that we really created something important.</a>{" "}
+                        We made direct crypto trading available to everyone via a new Danish platform
+                        connected to your bank account. It was clear to see that buying and selling cryptocurrency was
+                        becoming mor eimportant to especially the next generation of consumers. We believed
+                        it was necessary to make cryptocurrency available in a way that was more beneficial to
+                        users — which ment that we were the natural leaders to do so.
+                      </p>
+                      <p className="text-zinc-600 mb-2">
+                        We uncovered data that made it undeniable to initiate the project:
+                        More common in the younger generation, we found a 872% increase in crypto trading
+                        transactions among users when comparing 2020 to 2021. We had logs available to
+                        create analysis of purchasing patterns.
+                      </p>
+                      <p className="text-zinc-600 mb-6">
+                        We used YouGov to assist us in a nationalwide survey which lead us to the conclusion
+                        that close to one in five - 17% - of the 18-30 year-olds have bought cryptocurrency.
+                      </p>
+                      <img className="mb-2" src="/lunarblock.png" alt="" />
+                      <p className="text-zinc-600 mb-6 text-xs">
+                        The explore page & coin-page. Ready for production.
+                      </p>
+                      <p className="text-zinc-600 mb-8">
+                        Check out Lunar Block{" "}
+                        <a
+                          href="https://www.lunar.app/en/personal/crypto"
+                          className="underline"
+                          target="_blank"
+                        >
+                          here
+                        </a>.{" "}
+                      </p>
                     </div>
                   </Drawer.Content>
                 </Drawer.Portal>

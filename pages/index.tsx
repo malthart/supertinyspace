@@ -55,8 +55,8 @@ export default function Home() {
                       <p className="text-zinc-600 mb-6">
                         3. Trading price and its transparency is important. I asked user what they would thought about a concept where
                         Lunar works with three of the biggest crypto exhanges: Coinbase, Kraken & Bitstamp, so to be able to get the
-                        lowest possible trade price everytime. All users I interviewed using Coinbase, and other platforms told me
-                        that they would immediately switch to Lunar if this was the case. It was. Depending on the customer relationsship,
+                        lowest possible trade price everytime. <a className="bg-blue-800 text-white">All users I interviewed using Coinbase, and other platforms told me
+                        that they would immediately switch to Lunar if this was the case.</a> It was. Depending on the customer relationsship,
                         they only needed to pay between 1 and 2.5% in trading fees. All other fees such as transfer fees, exchanges fees,
                         etc. We completely removed.
                       </p>
@@ -68,7 +68,7 @@ export default function Home() {
                         preparatory phase serves as the bedrock for subsequent exploratory efforts.
                       </p>
                       <p className="text-zinc-600 mb-2">
-                        <a className="font-medium">I feel that we really created something important.</a>{" "}
+                        <a className="bg-blue-800 text-white">I feel like we really created something important.</a>{" "}
                         We made direct crypto trading available to everyone via a new Danish platform
                         connected to your bank account. It was clear to see that buying and selling cryptocurrency was
                         becoming mor eimportant to especially the next generation of consumers. We believed

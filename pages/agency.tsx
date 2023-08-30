@@ -64,6 +64,14 @@ export default function Agency() {
                     <p className="text-muted-foreground">Don&apos;t threat about unanswered question or data. I&apos;ll help you make sense of it from an academic approach.</p>
                 </div>
 
+                <div className="border-border w-full rounded-lg border px-3 py-4 backdrop-blur-[2px] md:p-6 relative">
+                    <div className="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-secondary/80 border-transparent bg-white text-muted-foreground absolute -top-3 right-2">Coming soon</div>
+                    <h3 className="font-cal mb-1 flex items-center text-base"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="mr-2 h-4 w-4"><rect width="18" height="12" x="3" y="8" rx="1"></rect>
+                        <path d="M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3"></path>
+                        <path d="M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3"></path></svg>Detanglement & Workshops</h3>
+                    <p className="text-muted-foreground">Your boat is stuck. What do you do? None of your employees want to jump in the water and push the boat to get unstuck. I'm the guy from walking from shore to push your boat unstuck.</p>
+                </div>
+
             </div>
 
             <div className="py-8 px-8 w-full">

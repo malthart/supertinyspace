@@ -21,6 +21,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex gap-x-3 justify-end">
+                    <a className="button-base button-secondary hover:scale-105 transition-all flex" href="https://github.com/malthart"><p className="text-2">Github</p><img src="/arrow.svg" alt="window icon" className="w-3 mx-2" /></a>
                     <a className="button-base button-secondary hover:scale-105 transition-all flex" href="https://twitter.com/malthart"><p className="text-2">Twitter</p><img src="/arrow.svg" alt="window icon" className="w-3 mx-2" /></a>
                     <a className="button-base button-secondary hover:scale-105 transition-all flex" href="mailto:malthart@icloud.com"><p className="text-2">Email</p><img src="/arrow.svg" alt="window icon" className="w-3 mx-2" /></a>
                 </div>

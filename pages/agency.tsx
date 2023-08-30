@@ -15,7 +15,7 @@ export default function Agency() {
             <div className="py-8 px-8 w-full">
                 <div className="max-w-screen-md">
                     <h1 className="text-base sm-text-base tracking-wide font-normal text-gray-900 dark:text-white">Super Tiny Agency</h1>
-                    <p className="text-base sm-text-base tracking-wide font-normal text-gray-900 dark:text-white">Industry standard design, research & front-end development in a bundled subscription. Made for teams that are not ready to commit to a full-time designer, but still want expertise & structure.</p>
+                    <p className="text-base sm-text-base tracking-wide font-normal text-gray-900 dark:text-white">Industry & beyond standard design, research & front-end development. Good for small teams & founders that are not ready to commit to a full-time designer, but still want expertise & structure.</p>
                 </div>
             </div>
 
@@ -49,15 +49,15 @@ export default function Agency() {
                 </div>
 
                 <div className="border-border w-full rounded-lg border px-3 py-4 backdrop-blur-[2px] md:p-6 relative">
-                    <div className="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-secondary/80 border-transparent bg-white text-muted-foreground absolute -top-3 right-2">Coming soon</div>
+                    {/* <div className="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-secondary/80 border-transparent bg-white text-muted-foreground absolute -top-3 right-2">Coming soon</div> */}
                     <h3 className="font-cal mb-1 flex items-center text-base"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="mr-2 h-4 w-4"><rect width="18" height="12" x="3" y="8" rx="1"></rect>
                         <path d="M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3"></path>
                         <path d="M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3"></path></svg>Icons, Branding & Motion</h3>
-                    <p className="text-muted-foreground">There&apos;s no good design without depth. I&apos;ll consult and design icons, assist you in branding & create moving animations.</p>
+                    <p className="text-muted-foreground">There&apos;s no good design without depth. I&apos;ll consult and design icons, assist you in branding & create moving UI animations.</p>
                 </div>
 
                 <div className="border-border w-full rounded-lg border px-3 py-4 backdrop-blur-[2px] md:p-6 relative">
-                    <div className="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-secondary/80 border-transparent bg-white text-muted-foreground absolute -top-3 right-2">Coming soon</div>
+                    {/* <div className="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-secondary/80 border-transparent bg-white text-muted-foreground absolute -top-3 right-2">Coming soon</div> */}
                     <h3 className="font-cal mb-1 flex items-center text-base"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="mr-2 h-4 w-4"><rect width="18" height="12" x="3" y="8" rx="1"></rect>
                         <path d="M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3"></path>
                         <path d="M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3"></path></svg>User Research, Product Analytics & UX</h3>
@@ -65,7 +65,7 @@ export default function Agency() {
                 </div>
 
                 <div className="border-border w-full rounded-lg border px-3 py-4 backdrop-blur-[2px] md:p-6 relative">
-                    <div className="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-secondary/80 border-transparent bg-white text-muted-foreground absolute -top-3 right-2">Coming soon</div>
+                    {/* <div className="inline-flex items-center border rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 hover:bg-secondary/80 border-transparent bg-white text-muted-foreground absolute -top-3 right-2">Coming soon</div> */}
                     <h3 className="font-cal mb-1 flex items-center text-base"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="mr-2 h-4 w-4"><rect width="18" height="12" x="3" y="8" rx="1"></rect>
                         <path d="M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3"></path>
                         <path d="M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3"></path></svg>Detanglement & Workshops</h3>

@@ -124,7 +124,7 @@ export default function Home() {
                           Worked as the Product Designer in Squad Apollo. Overseing everything design, UX
                           & market- & user research in collaboration with engineers and product.
                         </p>
-                        <p className="text-zinc-600 mb-2">
+                        <p className="text-zinc-600 mb-6">
                           I pushed for raising awareness & recognition of the female user group of Lunar Invest.
                           Leading to substantial research findings that changed the over-all marketing approach
                           for the product.

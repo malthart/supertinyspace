@@ -114,33 +114,31 @@ export default function Home() {
                 <Drawer.Portal>
                   <Drawer.Overlay className="fixed inset-0 bg-black/40" />
                   <Drawer.Content className="bg-white flex flex-col fixed bottom-0 left-0 right-0 h-[96%] rounded-t-[10px]">
-                    <div className="p-4 bg-white rounded-t-[10px] flex-1">
+                    <div className="max-w-md w-full mx-auto flex flex-col overflow-auto p-4 rounded-t-[10px]">
                       <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
-                      <div className="max-w-md mx-auto">
-                        <Drawer.Title className="font-medium mb-4">
-                          Lunar Invest
-                        </Drawer.Title>
-                        <p className="text-zinc-600 mb-2">
-                          Worked as the Product Designer in Squad Apollo. Overseing everything design, UX
-                          & market- & user research in collaboration with engineers and product.
-                        </p>
-                        <p className="text-zinc-600 mb-6">
-                          I pushed for raising awareness & recognition of the female user group of Lunar Invest.
-                          Leading to substantial research findings that changed the over-all marketing approach
-                          for the product.
-                        </p>
-                        <img className="mb-2 rounded-[10px]" src="/lunar_invest.png" alt="" />
-                        <p className="text-zinc-600 mb-8">
-                          Check out Lunar Invest{" "}
-                          <a
-                            href="https://www.lunar.app/en/personal/invest"
-                            className="underline"
-                            target="_blank"
-                          >
-                            here
-                          </a>.{" "}
-                        </p>
-                      </div>
+                      <Drawer.Title className="font-medium mb-4">
+                        Lunar Invest
+                      </Drawer.Title>
+                      <p className="text-zinc-600 mb-2">
+                        Worked as the Product Designer in Squad Apollo. Overseing everything design, UX
+                        & market- & user research in collaboration with engineers and product.
+                      </p>
+                      <p className="text-zinc-600 mb-6">
+                        I pushed for raising awareness & recognition of the female user group of Lunar Invest.
+                        Leading to substantial research findings that changed the over-all marketing approach
+                        for the product.
+                      </p>
+                      <img className="mb-2 rounded-[10px]" src="/lunar_invest.png" alt="" />
+                      <p className="text-zinc-600 mb-8">
+                        Check out Lunar Invest{" "}
+                        <a
+                          href="https://www.lunar.app/en/personal/invest"
+                          className="underline"
+                          target="_blank"
+                        >
+                          here
+                        </a>.{" "}
+                      </p>
                     </div>
                   </Drawer.Content>
                 </Drawer.Portal>

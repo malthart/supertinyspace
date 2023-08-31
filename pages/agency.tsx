@@ -1,12 +1,10 @@
 import { Inter } from 'next/font/google'
 import { Drawer } from 'vaul';
-import { useState } from "react";
 import Navbar from '@/components/navbar';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function agency() {
-    const [open, setOpen] = useState(false);
     return (
         <main className="align-middle justify-between bg-gray-50">
 

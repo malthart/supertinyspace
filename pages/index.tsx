@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import { Drawer } from 'vaul';
 import { useState } from "react";
 import Navbar from '@/components/navbar';
+import Tilt from 'react-parallax-tilt';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -56,7 +57,7 @@ export default function Home() {
                         3. Trading price and its transparency is important. I asked user what they would thought about a concept where
                         Lunar works with three of the biggest crypto exhanges: Coinbase, Kraken & Bitstamp, so to be able to get the
                         lowest possible trade price everytime. <a className="bg-blue-800 text-white">All users I interviewed using Coinbase, and other platforms told me
-                        that they would immediately switch to Lunar if this was the case.</a> It was. Depending on the customer relationsship,
+                          that they would immediately switch to Lunar if this was the case.</a> It was. Depending on the customer relationsship,
                         they only needed to pay between 1 and 2.5% in trading fees. All other fees such as transfer fees, exchanges fees,
                         etc. We completely removed.
                       </p>
@@ -380,8 +381,11 @@ export default function Home() {
           </Drawer.Portal>
         </Drawer.Root>
 
-
-
+        <div className="mx-auto w-52 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8">
+          <Tilt gyroscope={true} tiltMaxAngleX={45} tiltMaxAngleY={45}>
+            <img className="mb-2" src="/buoydeck.gif" alt="" />
+          </Tilt>
+        </div>
 
       </div>
 

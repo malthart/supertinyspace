@@ -386,12 +386,6 @@ export default function Home() {
           </Drawer.Portal>
         </Drawer.Root>
 
-        <div className="mx-auto w-52 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8">
-          <Tilt gyroscope={true} tiltMaxAngleX={45} tiltMaxAngleY={45}>
-            <img className="mb-2" src="/buoydeck.gif" alt="" />
-          </Tilt>
-        </div>
-
       </div>
 
 

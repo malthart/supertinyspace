@@ -113,7 +113,7 @@ export default function Home() {
                 </Drawer.Trigger>
                 <Drawer.Portal>
                   <Drawer.Overlay className="fixed inset-0 bg-black/40" />
-                  <Drawer.Content className="bg-zinc-100 flex flex-col rounded-t-[10px] h-[96%] mt-24 fixed bottom-0 left-0 right-0">
+                  <Drawer.Content className="bg-white flex flex-col fixed bottom-0 left-0 right-0 h-[96%] rounded-t-[10px]">
                     <div className="p-4 bg-white rounded-t-[10px] flex-1">
                       <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                       <div className="max-w-md mx-auto">
@@ -352,7 +352,7 @@ export default function Home() {
                 <p className="text-zinc-600 font-medium">
                   3. Test/Review
                 </p>
-                <p className="text-zinc-600 mb-2">
+                <p className="text-zinc-600 mb-6">
                   You could see this as a peer-review. But with
                   users. The solution we made in phase two? Time
                   to look the devil in the eye and find out if

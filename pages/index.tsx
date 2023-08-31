@@ -43,7 +43,7 @@ export default function Home() {
                         1. The annoyance of moving money from a bank account to a wallet/exchange, to then
                         start trading. Users wanted to trade directly from their bank account.
                       </p>
-                      <img className="mb-2" src="/sketch_crypto.png" alt="" />
+                      <img className="mb-2 rounded-[10px]" src="/sketch_crypto.png" alt="" />
                       <p className="text-zinc-600 mb-6 text-xs">
                         A basic rough sketch was utilized to illustrate a simple idea: skipping the usual
                         money-moving step and making a way to buy straight from the bank account.
@@ -61,7 +61,7 @@ export default function Home() {
                         they only needed to pay between 1 and 2.5% in trading fees. All other fees such as transfer fees, exchanges fees,
                         etc. We completely removed.
                       </p>
-                      <img className="mb-2" src="/research_crypto.png" alt="" />
+                      <img className="mb-2 rounded-[10px]" src="/research_crypto.png" alt="" />
                       <p className="text-zinc-600 mb-6 text-xs">
                         To ensure the successful development of Lunar Block, a comprehensive grasp of its prerequisites,
                         feasibility, and limitations is essential. I supported senior leadership by conducting research
@@ -86,7 +86,7 @@ export default function Home() {
                         We used YouGov to assist us in a nationalwide survey which lead us to the conclusion
                         that close to one in five - 17% - of the 18-30 year-olds have bought cryptocurrency.
                       </p>
-                      <img className="mb-2" src="/lunarblock.png" alt="" />
+                      <img className="mb-2 rounded-[10px]" src="/lunarblock.png" alt="" />
                       <p className="text-zinc-600 mb-6 text-xs">
                         The explore page & coin-page. Ready for production.
                       </p>
@@ -129,6 +129,7 @@ export default function Home() {
                           Leading to substantial research findings that changed the over-all marketing approach
                           for the product.
                         </p>
+                        <img className="mb-2 rounded-[10px]" src="/lunar_invest.png" alt="" />
                         <p className="text-zinc-600 mb-8">
                           Check out Lunar Invest{" "}
                           <a
@@ -305,7 +306,7 @@ export default function Home() {
                   and involvement? Ego. Fear of rejection and critism.
                   Something that I have long left behind me.
                 </p>
-                <img className="mb-2" src="/IMG_3744 2.png" alt="" />
+                <img className="mb-2 rounded-[10px]" src="/IMG_3744 2.png" alt="" />
                 <p className="text-zinc-600 mb-6 text-xs">
                   Rasmus, Lead of Growth, Thomas V, Lead of Consumer,
                   Thomas, Lead of Squad Apollo, and me, jamming out in a
@@ -330,7 +331,7 @@ export default function Home() {
                   For me, a workshop is the equivilent of Play: A place
                   where everyone can participate and the same level.
                 </p>
-                <img className="mb-2" src="/me.png" alt="" />
+                <img className="mb-2 rounded-[10px]" src="/me.png" alt="" />
                 <p className="text-zinc-600 mb-6 text-xs">
                   Me staring at the results of a &apos;Play&apos; session.
                 </p>
@@ -360,6 +361,12 @@ export default function Home() {
                   but sometimes, just sitting down next to someone
                   and handing them a phone with a prototype on it
                   can take you a long way.
+                </p>
+                <img className="mb-2 rounded-[10px]" src="/lunar_ux.png" alt="" />
+                <p className="text-zinc-600 mb-6 text-xs">
+                  Participating in my research is as much an opportunity
+                  for me to give back to the community. I will, on regular
+                  basis, send out goodies to usrs who have helped me a lot.
                 </p>
                 <p className="text-zinc-600 font-medium">
                   4. Report/Reflect/Plan/Ideate

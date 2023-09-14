@@ -95,7 +95,7 @@ export default function Home() {
                       we had to rebuild the task-API in the app, and make them more
                       flexible to use on web, too. <a href="https://shouter.app/tasks"
                       className="underline"> Check the result out for yourself.</a>
-                      Take notice of every piece of information is available, but
+                       Take notice of every piece of information is available, but
                       when you tap the &#34;I will do it&#34;, it immediately prompts you
                       to download the app. We caught a lot of fish that way.
                     </p>

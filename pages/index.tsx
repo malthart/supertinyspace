@@ -19,8 +19,8 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="relative isolate mx-auto min-h-fit w-full py-12 overflow-hidden pt-0">
-        <div className="mx-auto grid grid-cols-[repeat(auto-fill,_minmax(305px,1fr))] place-items-left gap-5 px-8">
+      <section className="py-8 px-8 pt-0 overflow-hidden w-full">
+        <div className="mx-auto grid grid-cols-[repeat(auto-fill,_minmax(305px,1fr))] place-items-left gap-5">
 
           <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>

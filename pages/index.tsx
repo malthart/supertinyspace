@@ -52,7 +52,7 @@ export default function Home() {
                       Shouter is a one-stop-shop for all home service needs;
                       A community marketplace where someone can list, discover,
                       and book tasks and cool projects. Involved in shaping the
-                      way everyone thinks about services; I&#39ve helped Shouter
+                      way everyone thinks about services; I've helped Shouter
                       innovate and build upon their decentralized platform to
                       better serve the peer-to-peer service space.
                     </p>
@@ -76,7 +76,7 @@ export default function Home() {
                     <p className="text-zinc-600 mb-4">
                       My grandpa would usually take me fishing around the local
                       area of where I used to live as a kid. I used this green
-                      goo as bait. It smelled weird. I didn&#39t catch anything.
+                      goo as bait. It smelled weird. I didn&#39;t catch anything.
                       But my grandpa caught every fish imaginable. How?
                     </p>
                     <p className="text-zinc-600 mb-4">
@@ -84,7 +84,7 @@ export default function Home() {
                       away in an app that required you to first and foremost, discover
                       the app and the existence of Shouter. Then, download the app
                       on app-store. Thirdly, go through a semi-extensive
-                      onboarding flow. That&#39s a long user-journey. Plus, operating
+                      onboarding flow. That&#39;s a long user-journey. Plus, operating
                       exclusively from a device is not very SEO friendly.
                     </p>
                     <p className="text-zinc-600 mb-4">
@@ -96,11 +96,11 @@ export default function Home() {
                       flexible to use on web, too. <a href="https://shouter.app/tasks"
                       className="underline"> Check the result out for yourself.</a>
                       Take notice of every piece of information is available, but
-                      when you tap the &quotI will do it&quot, it immediately prompts you
+                      when you tap the &#34;I will do it&#34;, it immediately prompts you
                       to download the app. We caught a lot of fish that way.
                     </p>
                     <p className="text-zinc-600 mb-4">
-                      That&#39s some real good bait right there. Thanks Pa.
+                      That&#39;s some real good bait right there. Thanks Pa.
                     </p>
                   </div>
                 </div>

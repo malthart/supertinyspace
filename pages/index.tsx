@@ -52,7 +52,7 @@ export default function Home() {
                       Shouter is a one-stop-shop for all home service needs;
                       A community marketplace where someone can list, discover,
                       and book tasks and cool projects. Involved in shaping the
-                      way everyone thinks about services; I've helped Shouter
+                      way everyone thinks about services; I&#39;ve helped Shouter
                       innovate and build upon their decentralized platform to
                       better serve the peer-to-peer service space.
                     </p>

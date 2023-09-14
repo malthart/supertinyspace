@@ -19,13 +19,13 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="relative isolate mx-auto min-h-fit w-full py-12 max-w-screen-xl overflow-hidden pt-0">
+      <section className="relative isolate mx-auto min-h-fit w-full py-12 overflow-hidden pt-0">
         <div className="mx-auto grid grid-cols-[repeat(auto-fill,_minmax(305px,1fr))] place-items-left gap-5 px-8">
 
           <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
               <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
-                <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer hover:bg-black/50">
+                <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer md:hover:bg-black/50">
                   <div className="pointer-events-auto flex snap-x snap-mandatory overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
                     <img src="/shouter.webp" className="h-full w-full flex-none snap-center snap-always overflow-hidden object-cover" />
                   </div>
@@ -87,7 +87,7 @@ export default function Home() {
           <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
               <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
-                <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer hover:bg-black/50">
+                <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer md:hover:bg-black/50">
                   <div className="pointer-events-auto flex snap-x snap-mandatory overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
                     <img src="/rise.png" className="h-full w-full flex-none snap-center snap-always overflow-hidden object-cover" />
                   </div>
@@ -149,7 +149,7 @@ export default function Home() {
           <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
               <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
-                <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer hover:bg-black/50">
+                <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer md:hover:bg-black/50">
                   <div className="pointer-events-auto flex snap-x snap-mandatory overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
                     <video loop autoPlay muted controls={false} className="h-full w-full flex-none snap-center snap-always overflow-hidden object-cover">
                       <source src="/lunar.mp4" />
@@ -213,7 +213,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative isolate mx-auto min-h-fit max-w-screen-xl overflow-hidden pt-0 py-8 px-8 w-full">
+      <section className="relative isolate mx-auto min-h-fit overflow-hidden pt-0 py-8 px-8 w-full">
         <div className="flex gap-x-3 justify-start">
           <a className="text-xs text-zinc-600 flex items-center gap-0.25" href="https://github.com/malthart" target="_blank"> Github
             <svg

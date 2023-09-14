@@ -24,7 +24,7 @@ export default function Home() {
 
           <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
-              <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px]">
+              <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
                 <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer">
                   <div className="pointer-events-auto flex snap-x snap-mandatory overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
                     <img src="/shouter.webp" className="h-full w-full flex-none snap-center snap-always overflow-hidden object-cover" />
@@ -86,9 +86,9 @@ export default function Home() {
 
           <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
-              <a className="group relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden rounded-lg row-span-1 grid-rows-[434px]">
-                <div className="bg-featured-gradient pointer-events-none relative flex h-full w-full flex-col overflow-hidden rounded-lg hover:bg-black/50 transition cursor-pointer">
-                  <div className="scrollbar-hide pointer-events-auto flex snap-x snap-mandatory overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
+              <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
+                <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer">
+                  <div className="pointer-events-auto flex snap-x snap-mandatory overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
                     <img src="/rise.png" className="h-full w-full flex-none snap-center snap-always overflow-hidden object-cover" />
                   </div>
                   <div className="align-top w-full rounded-lg p-6 pb-6 text-white">
@@ -148,9 +148,9 @@ export default function Home() {
 
           <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
-              <a className="group relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden rounded-lg row-span-1 grid-rows-[434px]">
-                <div className="bg-featured-gradient pointer-events-none relative flex h-full w-full flex-col overflow-hidden rounded-lg hover:bg-black/50 transition cursor-pointer">
-                  <div className="scrollbar-hide pointer-events-auto flex snap-x snap-mandatory overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
+              <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
+                <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer">
+                  <div className="pointer-events-auto flex snap-x snap-mandatory overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
                     <video loop autoPlay muted controls={false} className="h-full w-full flex-none snap-center snap-always overflow-hidden object-cover">
                       <source src="/lunar.mp4" />
                     </video>

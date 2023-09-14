@@ -22,7 +22,7 @@ export default function Home() {
       <section className="py-8 px-8 pt-0 overflow-hidden w-full">
         <div className="grid grid-cols-[repeat(auto-fill,_minmax(305px,1fr))] place-items-left gap-5">
 
-          <Drawer.Root shouldScaleBackground>
+          <Drawer.Root>
             <Drawer.Trigger asChild>
               <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
                 <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer md:hover:bg-black/50">
@@ -41,15 +41,66 @@ export default function Home() {
             </Drawer.Trigger>
             <Drawer.Portal>
               <Drawer.Overlay className="fixed inset-0 bg-black/40" />
-              <Drawer.Content className="bg-zinc-100 flex flex-col rounded-t-[10px] h-[96%] mt-24 fixed bottom-0 left-0 right-0">
-                <div className="p-4 bg-white rounded-t-[10px] flex-1">
+              <Drawer.Content className="bg-zinc-100 flex flex-col fixed rounded-t-[10px] h-[96%] bottom-0 left-0 right-0">
+                <div className="max-w-md w-full mx-auto flex flex-col overflow-auto p-4 rounded-t-[10px] no-scrollbar">
                   <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                   <div className="max-w-md mx-auto">
-                    <Drawer.Title className="font-medium mb-4">
+                    <Drawer.Title className="font-medium text-4xl mb-4">
                       Shouter
                     </Drawer.Title>
-                    <p className="text-zinc-600 mb-2">
-                      More information coming soon.
+                    <p className="text-zinc-600 mb-4">
+                      Shouter is a one-stop-shop for all home service needs;
+                      A community marketplace where someone can list, discover,
+                      and book tasks and cool projects. Involved in shaping the
+                      way everyone thinks about services; I've helped Shouter
+                      innovate and build upon their decentralized platform to
+                      better serve the peer-to-peer service space.
+                    </p>
+                    <img src="/IMG_0219.jpg" className="mb-6 rounded"/>
+                    <p className="text-zinc font-semibold text-xl mb-2">
+                      Things I accomplished while at Shouter:
+                    </p>
+                    <ul className="text-zinc-600 mb-4 list-disc">
+                      <li>Setting the strategy for expanding the device domain from iOS to Android & Web</li>
+                      <li>Steered Design System towards a cohesive styling that would match cross-platform requirements</li>
+                      <li>Launched a closed Android beta-programme with +50 users for controlled release, data- & bug collection</li>
+                      <li>Implemented & faciliated SCRUM meetings to build predictability, continuously phasing in new learnings</li>
+                      <li>Evangelised user research as a means to collect insights for discovery & problem solving</li>
+                      <li>Facilitate cross-functional brainstorms & other workshops</li>
+                      <li>Employed & mentored 1 Jr. Designer on UX & research practises</li>
+                      <li>Remodelled the onboarding to priorizite a specific user-type</li>
+                    </ul>
+                    <p className="text-zinc font-semibold text-xl mb-2">
+                      Using a webplatform as bait
+                    </p>
+                    <p className="text-zinc-600 mb-4">
+                      My grandpa would usually take me fishing around the local
+                      area of where I used to live as a kid. I used this green
+                      goo as bait. It smelled weird. I didn't catch anything.
+                      But my grandpa caught every fish imaginable. How?
+                    </p>
+                    <p className="text-zinc-600 mb-4">
+                      The Shouter-app had one great flaw: Everything was tucked
+                      away in an app that required you to first and foremost, discover
+                      the app and the existence of Shouter. Then, download the app
+                      on app-store. Thirdly, go through a semi-extensive
+                      onboarding flow. That's a long user-journey. Plus, operating
+                      exclusively from a device is not very SEO friendly.
+                    </p>
+                    <p className="text-zinc-600 mb-4">
+                      Two things had to be done: 1. We had to create an easier and
+                      more convenient way of discovering Shouter and then, incentivise
+                      users by showing them what they could potentially earn by
+                      completing a task in their geographical proximity. This ment
+                      we had to rebuild the task-API in the app, and make them more
+                      flexible to use on web, too. <a href="https://shouter.app/tasks"
+                      className="underline"> Check the result out for yourself.</a>
+                      Take notice of every piece of information is available, but
+                      when you tap the "I will do it", it immediately prompts you
+                      to download the app. We caught a lot of fish that way.
+                    </p>
+                    <p className="text-zinc-600 mb-4">
+                      That's some real good bait right there. Thanks Pa.
                     </p>
                   </div>
                 </div>

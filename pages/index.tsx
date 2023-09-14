@@ -322,6 +322,25 @@ export default function Home() {
               <path d="M10 14L21 3"></path>
             </svg>
           </a>
+
+          <a className="text-xs text-zinc-600 flex items-center gap-0.25" href="/cv-malthe-hartmann.pdf" target="_blank"> Resume
+            <svg
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="16"
+              aria-hidden="true"
+              className="w-3 h-3 ml-1"
+            >
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+              <path d="M15 3h6v6"></path>
+              <path d="M10 14L21 3"></path>
+            </svg>
+          </a>
         </div>
       </section>
 

@@ -22,11 +22,11 @@ export default function Home() {
       <section className="py-8 px-8 pt-0 overflow-hidden w-full">
         <div className="grid grid-cols-[repeat(auto-fill,_minmax(305px,1fr))] place-items-left gap-5">
 
-        <Drawer.Root shouldScaleBackground>
+          <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
               <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
                 <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer md:hover:bg-black/50">
-                <div className="pointer-events-auto flex overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
+                  <div className="pointer-events-auto flex overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
                     <img src="/parea.jpg" className="h-full w-full flex-none overflow-hidden object-cover" />
                   </div>
                   <div className="align-top w-full rounded-lg p-6 pb-6 text-white">
@@ -45,22 +45,23 @@ export default function Home() {
                 <div className="p-4 bg-white rounded-t-[10px] flex-1">
                   <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                   <div className="max-w-md mx-auto">
-                    <Drawer.Title className="font-medium mb-4">
+                    <Drawer.Title className="font-medium text-4xl mb-4">
                       Parea
                     </Drawer.Title>
-                    <p className="text-zinc-600 mb-2">
+                    <p className="text-zinc-600 mb-4">
                       More information coming soon.
                     </p>
+                    <img src="/IMG_0219.jpg" className="mb-6 rounded" />
                   </div>
                 </div>
                 <div className="p-4 bg-zinc-100 border-t border-zinc-200 mt-auto">
                   <div className="flex gap-6 justify-end max-w-md mx-auto">
                     <a
                       className="text-xs text-zinc-600 flex items-center gap-0.25"
-                      href="https://www.lunar.app/"
+                      href="http://web.archive.org/web/20230122001517/https://getparea.com/"
                       target="_blank"
                     >
-                      Lunar
+                      Parea (Archived)
                       <svg
                         fill="none"
                         height="16"
@@ -114,9 +115,10 @@ export default function Home() {
                       Shouter is a one-stop-shop for all home service needs;
                       A community marketplace where someone can list, discover,
                       and book tasks and cool projects. Involved in shaping the
-                      way everyone thinks about services; I&#39;ve helped Shouter
-                      innovate and build upon their decentralized platform to
-                      better serve the peer-to-peer service space.
+                      way everyone thinks about services; I helped Shouter
+                      innovate and build upon their understanding of their
+                      own decentralized platform to better serve the
+                      peer-to-peer service space.
                     </p>
                     <img src="/IMG_0219.jpg" className="mb-6 rounded" />
                     <p className="text-black font-semibold text-xl mb-2">
@@ -220,12 +222,13 @@ export default function Home() {
                 <div className="p-4 bg-white rounded-t-[10px] flex-1">
                   <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                   <div className="max-w-md mx-auto">
-                    <Drawer.Title className="font-medium mb-4">
+                  <Drawer.Title className="font-medium text-4xl mb-4">
                       RISE
                     </Drawer.Title>
-                    <p className="text-zinc-600 mb-2">
+                    <p className="text-zinc-600 mb-4">
                       More information coming soon.
                     </p>
+                    <img src="/IMG_0219.jpg" className="mb-6 rounded" />
                   </div>
                 </div>
                 <div className="p-4 bg-zinc-100 border-t border-zinc-200 mt-auto">
@@ -284,12 +287,13 @@ export default function Home() {
                 <div className="p-4 bg-white rounded-t-[10px] flex-1">
                   <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                   <div className="max-w-md mx-auto">
-                    <Drawer.Title className="font-medium mb-4">
+                  <Drawer.Title className="font-medium text-4xl mb-4">
                       Lunar
                     </Drawer.Title>
-                    <p className="text-zinc-600 mb-2">
+                    <p className="text-zinc-600 mb-4">
                       More information coming soon.
                     </p>
+                    <img src="/IMG_0219.jpg" className="mb-6 rounded" />
                   </div>
                 </div>
                 <div className="p-4 bg-zinc-100 border-t border-zinc-200 mt-auto">

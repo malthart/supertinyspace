@@ -28,7 +28,7 @@ export default function Home() {
                 <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer md:hover:bg-black/50">
                   <div className="pointer-events-auto flex overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
                     <video loop autoPlay muted controls={false} className="h-full w-full flex-none overflow-hidden object-cover">
-                      <source src="/lunar.mp4" />
+                      <source src="/parea.jpg" />
                     </video>
                   </div>
                   <div className="align-top w-full rounded-lg p-6 pb-6 text-white">
@@ -48,7 +48,7 @@ export default function Home() {
                   <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                   <div className="max-w-md mx-auto">
                     <Drawer.Title className="font-medium mb-4">
-                      Lunar
+                      Parea
                     </Drawer.Title>
                     <p className="text-zinc-600 mb-2">
                       More information coming soon.

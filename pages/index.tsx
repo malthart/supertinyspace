@@ -92,8 +92,8 @@ export default function Home() {
                       more convenient way of discovering Shouter and then, incentivise
                       users by showing them what they could potentially earn by
                       completing a task in their geographical proximity. This ment
-                      we had to rebuild the task-API in the app, and make them more
-                      flexible to use on web, too. <a href="https://shouter.app/tasks"
+                      we had to rebuild the task-API in the app, and make it more
+                      flexible to use on web. <a href="https://shouter.app/tasks"
                       className="underline"> Check the result out for yourself.</a>
                       {" "}Take notice of every piece of information is available, but
                       when you tap the &#34;I will do it&#34;, it immediately prompts you

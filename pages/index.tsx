@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
       <section className="py-8 px-8 pt-0 overflow-hidden w-full">
-        <div className="grid grid-cols-[repeat(auto-fill,_minmax(305px,1fr))] place-items-left gap-5">
+        <div className="grid grid-cols-[repeat(auto-fill,_minmax(305px,1fr))] place-items-left gap-5 transition-all">
 
           <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
@@ -42,7 +42,7 @@ export default function Home() {
             <Drawer.Portal>
               <Drawer.Overlay className="fixed inset-0 bg-black/40" />
               <Drawer.Content className="bg-zinc-100 flex flex-col rounded-t-[10px] h-[96%] mt-24 fixed bottom-0 left-0 right-0">
-                <div className="p-4 bg-white rounded-t-[10px] flex-1">
+                <div className="max-w-md w-full mx-auto flex flex-col overflow-auto p-4 rounded-t-[10px] no-scrollbar">
                   <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                   <div className="max-w-md mx-auto">
                     <Drawer.Title className="font-medium text-4xl mb-4">
@@ -51,7 +51,7 @@ export default function Home() {
                     <p className="text-zinc-600 mb-4">
                       More information coming soon.
                     </p>
-                    <img src="/IMG_0219.jpg" className="mb-6 rounded" />
+                    <img src="/boys.jpg" className="mb-6 rounded" />
                   </div>
                 </div>
                 <div className="p-4 bg-zinc-100 border-t border-zinc-200 mt-auto">
@@ -219,16 +219,17 @@ export default function Home() {
             <Drawer.Portal>
               <Drawer.Overlay className="fixed inset-0 bg-black/40" />
               <Drawer.Content className="bg-zinc-100 flex flex-col rounded-t-[10px] h-[96%] mt-24 fixed bottom-0 left-0 right-0">
-                <div className="p-4 bg-white rounded-t-[10px] flex-1">
+                <div className="max-w-md w-full mx-auto flex flex-col overflow-auto p-4 rounded-t-[10px] no-scrollbar">
                   <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                   <div className="max-w-md mx-auto">
-                  <Drawer.Title className="font-medium text-4xl mb-4">
+                    <Drawer.Title className="font-medium text-4xl mb-4">
                       RISE
                     </Drawer.Title>
                     <p className="text-zinc-600 mb-4">
                       More information coming soon.
                     </p>
-                    <img src="/IMG_0219.jpg" className="mb-6 rounded" />
+                    <img src="/risepersonal.JPG" className="mb-6 rounded" />
+                    <img src="/riseworkshop.png" className="mb-6 rounded" />
                   </div>
                 </div>
                 <div className="p-4 bg-zinc-100 border-t border-zinc-200 mt-auto">
@@ -284,10 +285,10 @@ export default function Home() {
             <Drawer.Portal>
               <Drawer.Overlay className="fixed inset-0 bg-black/40" />
               <Drawer.Content className="bg-zinc-100 flex flex-col rounded-t-[10px] h-[96%] mt-24 fixed bottom-0 left-0 right-0">
-                <div className="p-4 bg-white rounded-t-[10px] flex-1">
+                <div className="max-w-md w-full mx-auto flex flex-col overflow-auto p-4 rounded-t-[10px] no-scrollbar">
                   <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
                   <div className="max-w-md mx-auto">
-                  <Drawer.Title className="font-medium text-4xl mb-4">
+                    <Drawer.Title className="font-medium text-4xl mb-4">
                       Lunar
                     </Drawer.Title>
                     <p className="text-zinc-600 mb-4">

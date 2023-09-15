@@ -294,7 +294,7 @@ export default function Home() {
                     <p className="text-zinc-600 mb-4">
                       More information coming soon.
                     </p>
-                    <img src="/IMG_0219.jpg" className="mb-6 rounded" />
+                    <img src="/lunar.jpg" className="mb-6 rounded" />
                   </div>
                 </div>
                 <div className="p-4 bg-zinc-100 border-t border-zinc-200 mt-auto">

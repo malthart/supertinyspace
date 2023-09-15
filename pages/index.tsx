@@ -331,7 +331,7 @@ export default function Home() {
       <section className="py-8 px-8 pt-0 overflow-hidden w-full">
         <div className="gap-x-3 justify-start">
           <p className="text-zinc-600 mb-2 font-normal text-xs">
-            Other things I've done & made:
+            Other things I&#39;ve done & made:
           </p>
           <ul className="text-zinc-600 mb-4 font-normal text-xs">
             <li><a href="https://nextjswithloops.com/" target="_blank" rel="noopener noreferrer">NextJS with Loops</a></li>

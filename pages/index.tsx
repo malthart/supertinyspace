@@ -97,7 +97,7 @@ export default function Home() {
                       className="underline"> Check the result out for yourself.</a>
                       {" "}Take notice of every piece of information is available, but
                       when you tap the &#34;I will do it&#34;, it immediately prompts you
-                      to download the app. We caught a lot of fish that way.
+                      to download the app. We caught a lot of fish this way.
                     </p>
                     <p className="text-zinc-600 mb-4">
                       That&#39;s some real good bait right there. Thanks Pa.

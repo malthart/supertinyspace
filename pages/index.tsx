@@ -22,6 +22,70 @@ export default function Home() {
       <section className="py-8 px-8 pt-0 overflow-hidden w-full">
         <div className="grid grid-cols-[repeat(auto-fill,_minmax(305px,1fr))] place-items-left gap-5">
 
+        <Drawer.Root shouldScaleBackground>
+            <Drawer.Trigger asChild>
+              <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
+                <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer md:hover:bg-black/50">
+                  <div className="pointer-events-auto flex overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
+                    <video loop autoPlay muted controls={false} className="h-full w-full flex-none overflow-hidden object-cover">
+                      <source src="/lunar.mp4" />
+                    </video>
+                  </div>
+                  <div className="align-top w-full rounded-lg p-6 pb-6 text-white">
+                    <div className="font-normal text-4xl text-white">Parea</div>
+                  </div>
+                  <div className="mt-auto align-bottom w-full rounded-lg p-6 pb-6 text-white">
+                    <div className="font-normal text-base text-white">Privacy-driven padel app</div>
+                    <div className="font-normal text-base text-white/80">2023</div>
+                  </div>
+                </div>
+              </a>
+            </Drawer.Trigger>
+            <Drawer.Portal>
+              <Drawer.Overlay className="fixed inset-0 bg-black/40" />
+              <Drawer.Content className="bg-zinc-100 flex flex-col rounded-t-[10px] h-[96%] mt-24 fixed bottom-0 left-0 right-0">
+                <div className="p-4 bg-white rounded-t-[10px] flex-1">
+                  <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
+                  <div className="max-w-md mx-auto">
+                    <Drawer.Title className="font-medium mb-4">
+                      Lunar
+                    </Drawer.Title>
+                    <p className="text-zinc-600 mb-2">
+                      More information coming soon.
+                    </p>
+                  </div>
+                </div>
+                <div className="p-4 bg-zinc-100 border-t border-zinc-200 mt-auto">
+                  <div className="flex gap-6 justify-end max-w-md mx-auto">
+                    <a
+                      className="text-xs text-zinc-600 flex items-center gap-0.25"
+                      href="https://www.lunar.app/"
+                      target="_blank"
+                    >
+                      Lunar
+                      <svg
+                        fill="none"
+                        height="16"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                        width="16"
+                        aria-hidden="true"
+                        className="w-3 h-3 ml-1"
+                      >
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </Drawer.Content>
+            </Drawer.Portal>
+          </Drawer.Root>
+
           <Drawer.Root>
             <Drawer.Trigger asChild>
               <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
@@ -56,8 +120,8 @@ export default function Home() {
                       innovate and build upon their decentralized platform to
                       better serve the peer-to-peer service space.
                     </p>
-                    <img src="/IMG_0219.jpg" className="mb-6 rounded"/>
-                    <p className="text-zinc font-semibold text-xl mb-2">
+                    <img src="/IMG_0219.jpg" className="mb-6 rounded" />
+                    <p className="text-black font-semibold text-xl mb-2">
                       Things I accomplished while at Shouter:
                     </p>
                     <ul className="text-zinc-600 mb-4 list-disc">
@@ -94,7 +158,7 @@ export default function Home() {
                       completing a task in their geographical proximity. This ment
                       we had to rebuild the task-API in the app, and make it more
                       flexible to use on web. <a href="https://shouter.app/tasks"
-                      className="underline"> Check the result out for yourself.</a>
+                        className="underline"> Check the result out for yourself.</a>
                       {" "}Take notice of every piece of information is available, but
                       when you tap the &#34;I will do it&#34;, it immediately prompts you
                       to download the app. We caught a lot of fish this way.
@@ -261,6 +325,21 @@ export default function Home() {
             </Drawer.Portal>
           </Drawer.Root>
 
+        </div>
+      </section>
+
+      <section className="py-8 px-8 pt-0 overflow-hidden w-full">
+        <div className="gap-x-3 justify-start">
+          <p className="text-zinc-600 mb-2 font-normal text-xs">
+            Other things I've done & made:
+          </p>
+          <ul className="text-zinc-600 mb-4 font-normal text-xs">
+            <li><a href="https://nextjswithloops.com/" target="_blank" rel="noopener noreferrer">NextJS with Loops</a></li>
+            <li><a href="https://www.producthead.xyz/" target="_blank" rel="noopener noreferrer">Product Head</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" className="cursor-not-allowed text-zinc-400">Drawings (Soon)</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" className="cursor-not-allowed text-zinc-400">Zwift Design System (Soon)</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" className="cursor-not-allowed text-zinc-400">Motion (Soon)</a></li>
+          </ul>
         </div>
       </section>
 

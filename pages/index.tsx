@@ -292,9 +292,41 @@ export default function Home() {
                       Lunar
                     </Drawer.Title>
                     <p className="text-zinc-600 mb-4">
-                      More information coming soon.
+                      Lunar is a digital bank free from old systems, branches,
+                      and hidden fees. The company works towards becoming a
+                      pan-nordic financial super-app, giving users an
+                      opportunity to manage day-to-day finances with
+                      ease.
                     </p>
                     <img src="/lunar.jpg" className="mb-6 rounded" />
+                    <p className="text-black font-semibold text-xl mb-2">
+                      Things I accomplished while at Lunar:
+                    </p>
+                    <ul className="text-zinc-600 mb-4 list-disc">
+                      <li>Assisted and faciliated several Design Sprints for cross-functional team members</li>
+                      <li>Continuously researched user behavior, wants, & needs, (mixed methods) to fuel decision making</li>
+                      <li>Collaborated with Product Owners & Managers in creating UX-specific tickets</li>
+                      <li>Advocated for female inclusion within the investment space</li>
+                      <li>Discovered and initiated several products & features based in market- and user research</li>
+                    </ul>
+                    <p className="text-black font-semibold text-xl mb-2">
+                      Products & Inititaves I've worked on:
+                    </p>
+                    <ul className="text-zinc-600 mb-4">
+                      <li>Lunar Invest</li>
+                      <li>Lunar Block (Crypto)</li>
+                      <li>Lunar Business</li>
+                      <li>Tiers</li>
+                      <li>Benefits</li>
+                      <li>Social Investing</li>
+                      <li>Project Blue</li>
+                      <li>Buy Now Pay Later</li>
+                      <li>Goals</li>
+                      <li>Push- & Notification Systems</li>
+                      <li>Churn & Retention Changes</li>
+                      <li>Untitled Peer2Peer Credit Product</li>
+                      <li>Untitled Kids Product</li>
+                    </ul>
                   </div>
                 </div>
                 <div className="p-4 bg-zinc-100 border-t border-zinc-200 mt-auto">

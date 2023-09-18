@@ -316,6 +316,7 @@ export default function Home() {
                       <li>Lunar Invest</li>
                       <li>Lunar Block (Crypto)</li>
                       <li>Lunar Business</li>
+                      <li>Astralis x Lunar</li>
                       <li>Tiers</li>
                       <li>Benefits</li>
                       <li>Social Investing</li>

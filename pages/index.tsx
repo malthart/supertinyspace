@@ -310,7 +310,7 @@ export default function Home() {
                       <li>Discovered and initiated several products & features based in market- and user research</li>
                     </ul>
                     <p className="text-black font-semibold text-xl mb-2">
-                      Products & Inititaves I've worked on:
+                      Products & Inititaves I&#39;ve worked on:
                     </p>
                     <ul className="text-zinc-600 mb-4">
                       <li>Lunar Invest</li>

@@ -49,21 +49,20 @@ export default function Home() {
                       Parea
                     </Drawer.Title>
                     <p className="text-zinc-600 mb-4">
-                      Parea is a SwiftUI app, built to converge information from
-                      +4 star rated padel courts around the world. Primarily built
-                      for the purpose of discovery and to identify courts in the
-                      users geographic peripheral.
+                      Parea is a SwiftUI app, built with the purpose of converging
+                      information on padel courts around the world. Data such as
+                      lat/long, images, description and ameneties was designed
+                      for the use to quickly scan through the unique court page. 
                     </p>
                     <img src="/IMG_0219.jpg" className="mb-6 rounded" />
                     <p className="text-black font-semibold text-xl mb-2">
                       Things I learned while building Parea:
                     </p>
                     <ul className="text-zinc-600 mb-4 list-disc">
-                      <li>Basic elements of SwiftUI: Vertical & Horizontal Stack, Horizintal Container, Sheet</li>
-                      <li>Building a local database</li>
-                      <li>xCode and how to release an app through Apple's release pipeline</li>
-                      <li>Waitlist management and rolling invite/release</li>
-                      <li>The complexity of being an engineer and aligning design with development</li>
+                      <li>Basic elements of SwiftUI: Vertical & Horizontal Stack, Local Database, Sheet, MapKit, etc.</li>
+                      <li>xCode and how to release an app through Apple&#39;s release pipeline</li>
+                      <li>Waitlist management and rolling invite/release for feedback generation</li>
+                      <li>Complexity of being an engineer and aligning design with development</li>
                     </ul>
                     <img src="/boys.jpg" className="mb-6 rounded" />
                   </div>

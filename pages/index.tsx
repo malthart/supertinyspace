@@ -59,6 +59,7 @@ export default function Home() {
                       Things I learned while building Parea:
                     </p>
                     <ul className="text-zinc-600 mb-4 list-disc">
+                      <li>Setting up an app-buiding company</li>
                       <li>Basic elements of SwiftUI: Vertical & Horizontal Stack, Local Database, Sheet, MapKit, etc.</li>
                       <li>xCode and how to release an app through Apple&#39;s release pipeline</li>
                       <li>Waitlist management and rolling invite/release for feedback generation</li>

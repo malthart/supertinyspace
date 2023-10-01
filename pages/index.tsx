@@ -52,9 +52,9 @@ export default function Home() {
                       Parea is a SwiftUI app, built with the purpose of converging
                       information on padel courts around the world. Data such as
                       lat/long, images, description and ameneties was designed
-                      for the use to quickly scan through the unique court page. 
+                      for the use to quickly scan through the unique court page.
                     </p>
-                    <img src="/IMG_0219.jpg" className="mb-6 rounded" />
+                    <img src="/boys.jpg" className="mb-6 rounded" />
                     <p className="text-black font-semibold text-xl mb-2">
                       Things I learned while building Parea:
                     </p>
@@ -64,7 +64,6 @@ export default function Home() {
                       <li>Waitlist management and rolling invite/release for feedback generation</li>
                       <li>Complexity of being an engineer and aligning design with development</li>
                     </ul>
-                    <img src="/boys.jpg" className="mb-6 rounded" />
                   </div>
                 </div>
                 <div className="p-4 bg-zinc-100 border-t border-zinc-200 mt-auto">

@@ -24,20 +24,20 @@ export default function Home() {
 
           <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
-              <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
-                <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer md:hover:bg-black/50">
-                  <div className="pointer-events-auto flex overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
-                    <img src="/parea.jpg" className="h-full w-full flex-none overflow-hidden object-cover" />
+                <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px]">
+                  <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer">
+                    <div className="pointer-events-auto flex overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
+                      <img src="/parea.jpg" className="h-full w-full flex-none overflow-hidden object-cover" />
+                    </div>
+                    <div className="align-top w-full rounded-lg p-6 pb-6 text-white">
+                      <div className="font-normal text-4xl text-white">Parea</div>
+                    </div>
+                    <div className="mt-auto align-bottom w-full rounded-lg p-6 pb-6 text-white">
+                      <div className="font-normal text-base text-white">Privacy-driven padel app</div>
+                      <div className="font-normal text-base text-white/80">2023</div>
+                    </div>
                   </div>
-                  <div className="align-top w-full rounded-lg p-6 pb-6 text-white">
-                    <div className="font-normal text-4xl text-white">Parea</div>
-                  </div>
-                  <div className="mt-auto align-bottom w-full rounded-lg p-6 pb-6 text-white">
-                    <div className="font-normal text-base text-white">Privacy-driven padel app</div>
-                    <div className="font-normal text-base text-white/80">2023</div>
-                  </div>
-                </div>
-              </a>
+                </a>
             </Drawer.Trigger>
             <Drawer.Portal>
               <Drawer.Overlay className="fixed inset-0 bg-black/40" />

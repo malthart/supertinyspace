@@ -24,7 +24,7 @@ export default function Home() {
 
           <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
-                <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px]">
+                <a className="relative isolate grid h-full w-full min-w-[305px] gap-3 overflow-hidden row-span-1 grid-rows-[434px] rounded">
                   <div className="pointer-events-none relative flex h-full w-full flex-col overflow-hidden transition cursor-pointer">
                     <div className="pointer-events-auto flex overflow-x-auto absolute inset-0 -z-10 w-full object-cover h-full">
                       <img src="/parea.jpg" className="h-full w-full flex-none overflow-hidden object-cover" />

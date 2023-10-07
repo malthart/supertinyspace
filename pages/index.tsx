@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,8 +25,8 @@ export default function Home() {
                 </div >
 
                 <div className="grid grid-cols-1 col-span-2 lg:grid-cols-2 place-items-left gap-4 transition-all p-8">
-                    <Link href="/gallery/parea"> <img className="rounded-xl" src="/parea/parea-map.png" alt="" /></Link>
-                    <Link href="/gallery/rise"> <img className="rounded-xl" src="/rise/rise-spending.png" alt="" /></Link>
+                    <Link href="/gallery/parea"><img className="rounded-xl" src="/parea/parea-map.png" alt="" /></Link>
+                    <Link href="/gallery/rise"><img className="rounded-xl" src="/rise/rise-spending.png" alt="" /></Link>
                 </div >
             </div>
         </main >

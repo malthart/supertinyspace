@@ -14,7 +14,10 @@ export default function Home() {
                             <h1 className="text-stone-500 text-[18px] leading-[150%]">Supertiny.space</h1>
                         </div>
                         <div>
-                            <p className="text-stone-800 text-[18px] leading-[150%]">Malthe Alexius Hartmann is a strategic Product Designer from Denmark with a focus on user research. He designs joyful experiences with heart. His latest obsession is improving foundations and streamlining work between designer and developer.</p>
+                            <p className="text-stone-800 text-[18px] leading-[150%]">Malthe Alexius Hartmann
+                            is a strategic Product Designer from Denmark with a focus on user research.
+                            He designs joyful experiences with heart. His latest obsession is improving
+                            foundations and streamlining work between designer and developer.</p>
                         </div>
                     </div>
                 </div >

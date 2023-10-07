@@ -20,8 +20,8 @@ export default function Home() {
                 </div >
 
                 <div className="grid grid-cols-1 col-span-2 lg:grid-cols-2 place-items-left gap-4 transition-all p-8">
-                    <a href="/gallery/parea"><img className="rounded-xl" src="/parea/parea-map.png" /></a>
-                    <a href="/gallery/rise"><img className="rounded-xl" src="/rise/rise-spending.png" /></a>
+                    <a href="/gallery/parea"><img className="rounded-xl" src="/parea/parea-map.png" alt="" /></a>
+                    <a href="/gallery/rise"><img className="rounded-xl" src="/rise/rise-spending.png" alt="" /></a>
                 </div >
             </div>
         </main >

@@ -53,8 +53,8 @@ export default function Home() {
                             post-feedback implementation in the second cycle. Parea is currently on standby.</p>
                         </div>
                         <div className="text-stone-500 text-[18px] leading-[150%]">
-                            <p className="text-stone-800 mb-6">Brand & identity by <a href="https://www.linkedin.com/in/lorenzorx/"
-                            target='blank' className="hover:underline"></a>Lorenzo Rodriguez.</p>
+                            <p className="text-stone-800 mb-6">Brand & identity by <a href="https://www.doozy.studio/"
+                            target='blank' className="hover:underline">Lorenzo Rodriguez.</a></p>
                         </div>
                     </div>
                 </div >

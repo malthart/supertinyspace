@@ -41,15 +41,15 @@ export default function Home() {
                 </div >
 
                 <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 lg:grid-cols-2 place-items-left gap-4 transition-all">
-                    <img className="rounded-xl" src="/rise/rise-spending.png" alt=""/>
-                    <img className="rounded-xl" src="/rise/rise-savings.png" alt=""/>
-                    <img className="rounded-xl" src="/rise/rise-goals.png" alt=""/>
-                    <img className="rounded-xl" src="/rise/rise-parent-drawer.png" alt=""/>
-                    <img className="rounded-xl" src="/rise/rise-icons.png" alt=""/>
+                    <img className="rounded-xl" src="/rise/rise_spending.webp" alt=""/>
+                    <img className="rounded-xl" src="/rise/rise_savings.webp" alt=""/>
+                    <img className="rounded-xl" src="/rise/rise_goals.webp" alt=""/>
+                    <img className="rounded-xl" src="/rise/rise_parent_drawer.webp" alt=""/>
+                    <img className="rounded-xl" src="/rise/rise_icons.webp" alt=""/>
                     <img className="rounded-xl" src="/goal-animation.gif" alt=""/>
-                    <img className="rounded-xl" src="/rise/rise-research.png" alt=""/>
-                    <img className="rounded-xl" src="/rise/rise-workshop.png" alt=""/>
-                    <img className="rounded-xl" src="/rise/rise-social.png" alt=""/>
+                    <img className="rounded-xl" src="/rise/rise_research.webp" alt=""/>
+                    <img className="rounded-xl" src="/rise/rise_workshop.webp" alt=""/>
+                    <img className="rounded-xl" src="/rise/rise_social.webp" alt=""/>
                 </div>
 
             </div>

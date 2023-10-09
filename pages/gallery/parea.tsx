@@ -54,7 +54,7 @@ export default function Home() {
                         </div>
                         <div className="text-stone-500 text-[18px] leading-[150%]">
                             <p className="text-stone-800 mb-6">Brand & identity by <a href="https://www.linkedin.com/in/lorenzorx/"
-                            target='blank'></a>Lorenzo Rodriguez.</p>
+                            target='blank' className="hover:underline"></a>Lorenzo Rodriguez.</p>
                         </div>
                     </div>
                 </div >

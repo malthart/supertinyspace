@@ -56,15 +56,16 @@ export default function Home() {
                 </div >
 
                 <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 lg:grid-cols-2 place-items-left gap-4 transition-all">
-                    <img className="rounded-xl" src="/parea/parea-map.png" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea-create-match.png" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea-drawer.png" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea-watch-matches.png" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea-watch-today.png" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea-watch-details.png" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea-icons.png" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea-colours.png" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea-research.png" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_map.webp" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_create_match.webp" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_drawer.webp" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_watch_matches.webp" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_watch_today.webp" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_watch_details.webp" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_icons.webp" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_colours.webp" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_research.webp" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_docs.webp" alt=""/>
                 </div>
 
             </div>

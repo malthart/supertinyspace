@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="items-top justify-left grid grid-cols-1">
                     <div className="pt-8 pl-8">
                         <div className="mb-4">
-                            <h1 className="text-stone-500 text-[18px] leading-[150%]">Supertiny.space</h1>
+                            <h1 className="text-stone-500 text-[18px] leading-[150%]">supertiny.space</h1>
                         </div>
                         <div>
                             <p className="text-stone-800 text-[18px] leading-[150%]">Malthe Alexius Hartmann

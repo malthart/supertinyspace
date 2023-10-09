@@ -52,6 +52,10 @@ export default function Home() {
                             <p className="text-stone-800 mb-6">The design on this page reflects that of the product
                             post-feedback implementation in the second cycle. Parea is currently on standby.</p>
                         </div>
+                        <div className="text-stone-500 text-[18px] leading-[150%]">
+                            <p className="text-stone-800 mb-6">Brand & identity by <a href="https://www.linkedin.com/in/lorenzorx/"
+                            target='blank'></a>Lorenzo Rodriguez.</p>
+                        </div>
                     </div>
                 </div >
 

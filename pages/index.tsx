@@ -15,12 +15,21 @@ export default function Home() {
                         <div className="mb-4">
                             <h1 className="text-stone-500 text-[18px] leading-[150%]">supertiny.space</h1>
                         </div>
-                        <div>
+                        <div className="mb-4">
                             <p className="text-stone-800 text-[18px] leading-[150%]">Malthe Alexius Hartmann
-                            is a strategic Product Designer from Denmark with a focus on user research.
-                            He designs joyful experiences with heart. His latest obsession is improving
-                            foundations and streamlining work between designer and developer.</p>
+                                is a strategic Product Designer from Denmark with a focus on user research.
+                                He designs joyful experiences with heart. His latest obsession is improving
+                                foundations and streamlining work between designer and developer.</p>
                         </div>
+                        <Link href="/gallery/experiments">
+                            <div className="flex flex-col bg-[#EAE7E1] p-4 border border-[#D2CFCA] rounded-2xl gap-3">
+                                <img src="/imagery/supertiny_potion.png" className="w-[28px]"></img>
+                                <div>
+                                    <p className="text-stone-800 text-[16px] font-semibold leading-[150%]">Experiments</p>
+                                    <p className="text-stone-800 text-[14px] leading-[150%]">I test out hypothesis and UI in here</p>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
                 </div >
 

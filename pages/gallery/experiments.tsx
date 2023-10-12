@@ -29,6 +29,7 @@ export default function Home() {
                         <div className="text-stone-500 text-[18px] leading-[150%]">
                             <p>3D Models</p>
                             <a href="/experiments/birdie3d.zip" className="text-stone-800 mb-6 hover:underline">Birdie3D.zip</a>
+                            <a href="/experiments//Braille Interface Mesh.zip" className="text-stone-800 mb-6 hover:underline">BrailleInterfaceMesh.zip</a>
                         </div>
                     </div>
                 </div >

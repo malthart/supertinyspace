@@ -26,7 +26,7 @@ export default function Home() {
                                 <img src="/imagery/supertiny_potion.png" className="w-[28px]"></img>
                                 <div>
                                     <p className="text-stone-800 text-[16px] font-semibold leading-[150%]">Experiments</p>
-                                    <p className="text-stone-800 text-[14px] leading-[150%]">I test out hypothesis and UI in here</p>
+                                    <p className="text-stone-800 text-[14px] leading-[150%]">I test out hypothesis, UI & graphics in here</p>
                                 </div>
                             </div>
                         </Link>

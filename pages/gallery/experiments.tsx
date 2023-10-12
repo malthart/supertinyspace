@@ -26,20 +26,18 @@ export default function Home() {
                             <p>Product</p>
                             <p className="text-stone-800 mb-6">All UI and graphical work is original and created by Malthe Alexius Hartmann.</p>
                         </div>
+                        <div className="text-stone-500 text-[18px] leading-[150%]">
+                            <p>3D Models</p>
+                            <a href="/experiments/birdie3d.zip" className="text-stone-800 mb-6 hover:underline">Birdie3D.zip</a>
+                        </div>
                     </div>
                 </div >
 
                 <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 lg:grid-cols-2 place-items-left gap-4 transition-all">
-                    <img className="rounded-xl" src="/experiments/mobilepay_suggestions_home.webp" alt=""/>
-                    <img className="rounded-xl" src="/experiments/rise_cards.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_drawer.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_watch_matches.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_watch_today.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_watch_details.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_icons.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_colours.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_research.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_docs.webp" alt=""/>
+                    <img className="rounded-xl" src="/experiments/mobilepay_suggestions_home.webp" alt="" />
+                    <img className="rounded-xl" src="/experiments/rise_cards.webp" alt="" />
+                    <video autoPlay muted loop className="rounded-xl min-h-[600px] h-auto object-cover" src="/experiments/birdie3d.webm" />
+                    <img className="rounded-xl" src="/parea/parea_watch_matches.webp" alt="" />
                 </div>
 
             </div>

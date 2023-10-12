@@ -63,6 +63,7 @@ export default function Home() {
                     <img className="rounded-xl" src="/parea/parea_map.webp" alt=""/>
                     <img className="rounded-xl" src="/parea/parea_create_match.webp" alt=""/>
                     <img className="rounded-xl" src="/parea/parea_drawer.webp" alt=""/>
+                    <img className="rounded-xl" src="/parea/parea_pitch.webp" alt=""/>
                     <img className="rounded-xl" src="/parea/parea_watch_matches.webp" alt=""/>
                     <img className="rounded-xl" src="/parea/parea_watch_today.webp" alt=""/>
                     <img className="rounded-xl" src="/parea/parea_watch_details.webp" alt=""/>

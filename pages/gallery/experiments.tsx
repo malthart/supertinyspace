@@ -37,7 +37,7 @@ export default function Home() {
                     <img className="rounded-xl" src="/experiments/mobilepay_suggestions_home.webp" alt="" />
                     <img className="rounded-xl" src="/experiments/rise_cards.webp" alt="" />
                     <video autoPlay muted loop className="rounded-xl min-h-[600px] h-auto object-cover" src="/experiments/birdie3d.webm" />
-                    <img className="rounded-xl" src="/parea/parea_watch_matches.webp" alt="" />
+                    <img className="rounded-xl" src="/experiments/buoydeck.gif" alt="" />
                 </div>
 
             </div>

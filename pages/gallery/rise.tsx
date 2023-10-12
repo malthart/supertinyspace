@@ -45,13 +45,14 @@ export default function Home() {
                     <img className="rounded-xl" src="/rise/rise_savings.webp" alt=""/>
                     <img className="rounded-xl" src="/rise/rise_goals.webp" alt=""/>
                     <img className="rounded-xl" src="/rise/rise_parent_drawer.webp" alt=""/>
+                    <img className="rounded-xl" src="/rise/rise_paris.webp" alt=""/>
                     <img className="rounded-xl" src="/rise/rise_icons.webp" alt=""/>
                     <img className="rounded-xl" src="/goal-animation.gif" alt=""/>
                     <img className="rounded-xl" src="/rise/rise_research.webp" alt=""/>
                     <img className="rounded-xl" src="/rise/rise_workshop.webp" alt=""/>
                     <img className="rounded-xl" src="/rise/rise_social.webp" alt=""/>
                 </div>
-
+                
             </div>
         </main >
     )

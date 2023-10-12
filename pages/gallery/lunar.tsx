@@ -62,11 +62,13 @@ export default function Home() {
                     <img className="rounded-xl" src="/lunar/lunar_social_investing.webp" alt=""/>
                     <img className="rounded-xl" src="/lunar/lunar_ipo_radar.webp" alt=""/>
                     <img className="rounded-xl" src="/lunar/lunar_invest_news.webp" alt=""/>
+                    <img className="rounded-xl" src="/lunar/lunar_workshop.webp" alt=""/>
                     <img className="rounded-xl" src="/lunar/lunar_thematics.webp" alt=""/>
                     <img className="rounded-xl" src="/lunar/lunar_astralis.webp" alt=""/>
                     <img className="rounded-xl" src="/lunar/lunar_risk_labels.webp" alt=""/>
                     <img className="rounded-xl" src="/lunar/lunar_contextual_help.webp" alt=""/>
                     <img className="rounded-xl" src="/lunar/lunar_share_stock.webp" alt=""/>
+                    <img className="rounded-xl" src="/lunar/lunar_ux.webp" alt=""/>
                 </div>
 
             </div>

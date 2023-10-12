@@ -28,8 +28,8 @@ export default function Home() {
                         </div>
                         <div className="text-stone-500 text-[18px] leading-[150%]">
                             <p>3D Models</p>
-                            <a href="/experiments/birdie3d.zip" className="text-stone-800 mb-6 hover:underline">Birdie3D.zip</a>
-                            <a href="/experiments//Braille Interface Mesh.zip" className="text-stone-800 mb-6 hover:underline">BrailleInterfaceMesh.zip</a>
+                            <p><a href="/experiments/birdie3d.zip" className="text-stone-800 mb-6 hover:underline">Birdie3D.zip</a></p>
+                            <p><a href="/experiments//Braille Interface Mesh.zip" className="text-stone-800 mb-6 hover:underline">BrailleInterfaceMesh.zip</a></p>
                         </div>
                     </div>
                 </div >

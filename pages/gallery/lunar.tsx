@@ -59,16 +59,14 @@ export default function Home() {
                 </div >
 
                 <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 lg:grid-cols-2 place-items-left gap-4 transition-all">
-                    <img className="rounded-xl" src="/parea/parea_map.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_create_match.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_drawer.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_watch_matches.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_watch_today.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_watch_details.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_icons.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_colours.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_research.webp" alt=""/>
-                    <img className="rounded-xl" src="/parea/parea_docs.webp" alt=""/>
+                    <img className="rounded-xl" src="/lunar/lunar_social_investing.webp" alt=""/>
+                    <img className="rounded-xl" src="/lunar/lunar_ipo_radar.webp" alt=""/>
+                    <img className="rounded-xl" src="/lunar/lunar_invest_news.webp" alt=""/>
+                    <img className="rounded-xl" src="/lunar/lunar_thematics.webp" alt=""/>
+                    <img className="rounded-xl" src="/lunar/lunar_astralis.webp" alt=""/>
+                    <img className="rounded-xl" src="/lunar/lunar_risk_labels.webp" alt=""/>
+                    <img className="rounded-xl" src="/lunar/lunar_contextual_help.webp" alt=""/>
+                    <img className="rounded-xl" src="/lunar/lunar_share_stock.webp" alt=""/>
                 </div>
 
             </div>

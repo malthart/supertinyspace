@@ -36,6 +36,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 col-span-2 lg:grid-cols-2 place-items-left gap-4 transition-all p-8">
                     <Link href="/gallery/parea"><img className="rounded-xl" src="/parea/parea_map.webp" alt="" /></Link>
                     <Link href="/gallery/rise"><img className="rounded-xl" src="/rise/rise_spending.webp" alt="" /></Link>
+                    <Link href="/gallery/lunar"><img className="rounded-xl" src="/lunar/lunar_social_investing.webp" alt="" /></Link>
                 </div >
             </div>
         </main >

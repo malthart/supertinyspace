@@ -35,6 +35,7 @@ export default function Home() {
                 </div >
 
                 <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 lg:grid-cols-2 place-items-left gap-4 transition-all">
+                    <img className="rounded-xl" src="/experiments/linkedin_saved_post_web.webp" alt="" />
                     <img className="rounded-xl" src="/experiments/3d_interface_braille.webp" alt="" />
                     <img className="rounded-xl" src="/experiments/mobilepay_suggestions_home.webp" alt="" />
                     <img className="rounded-xl" src="/experiments/rise_cards.webp" alt="" />

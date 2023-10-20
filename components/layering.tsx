@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Layering = () => {
     return (
         <div className="relative w-[100%]">
-            <div className="relative h-[90vh] md:h-[100vh] overflow-hidden">
+            <div className="relative h-[90vh] md:h-[100vh] overflow-hidden transition-all duration-700">
                 <img src="/programming/5.0db6da.webp" alt="" className="z-0 h-full w-full absolute object-cover top-0" />
                 <img src="/programming/4.1e07a4.webp" alt="" className="z-10 absolute object-contain -bottom-40 left-0 m-auto" />
                 <img src="/programming/3.9f3b94.webp" alt="" className="z-20 absolute object-contain bottom-10 sm:md-bottom-10 md:bottom-20 transition-all duration-700 scale-110 md:scale-100 lg:scale-100" />
@@ -13,7 +13,7 @@ const Layering = () => {
                         <img src="/programming/big-logo.dbe85a.png" alt="" className="h-[100%] w-[100%] block" />
                     </div>
                 </div>
-                <img src="/programming/2.f285ca.webp" alt="" className="z-40 absolute object-contain -bottom-0 sm:md-bottom-0 md:-bottom-0 transition-all duration-700 scale-15 md:scale-100 lg:scale-1000" />
+                <img src="/programming/2.f285ca.webp" alt="" className="z-40 absolute object-contain -bottom-0 sm:md-bottom-0 md:-bottom-0 transition-all duration-700 scale-15 md:scale-100 lg:scale-100" />
                 <img src="/programming/1.610c19.webp" alt="" className="z-50 h-auto w-[250px] sm:w-[430px] absolute m-auto -right-28 bottom-0 transition-all duration-700 sm:-right-50 md:-right-10 lg:right-0" />
             </div>
         </div>

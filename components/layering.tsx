@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Layering = () => {
     return (
         <div className="relative w-[100%]">
-            <div className="relative h-[100vh] overflow-hidden">
+            <div className="relative h-[90vh] md:h-[100vh] overflow-hidden">
                 <img src="/programming/5.0db6da.webp" alt="" className="z-0 h-full w-full absolute object-cover top-0" />
                 <img src="/programming/4.1e07a4.webp" alt="" className="z-10 absolute object-contain -bottom-40 left-0 m-auto" />
                 <img src="/programming/3.9f3b94.webp" alt="" className="z-20 absolute object-contain bottom-10 sm:md-bottom-10 md:bottom-20 transition-all duration-700 scale-110 md:scale-100 lg:scale-100" />

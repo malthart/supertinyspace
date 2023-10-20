@@ -8,14 +8,14 @@ export default function Home() {
     return (
 
         <main className="bg-stone-200 overflow-hidden w-full min-h-screen">
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 place-items-left gap-6 transition-all">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 place-items-left gap-6 transition-all ">
 
                 <div className="items-top justify-left grid grid-cols-1">
                     <div className="pt-8 pl-8">
                         <div className="mb-4">
                             <h1 className="text-stone-500 text-[18px] leading-[150%]">supertiny.space</h1>
                         </div>
-                        <div className="mb-4">
+                        <div className="mb-4 animate-fade-in-down">
                             <p className="text-stone-800 text-[18px] leading-[150%]">Malthe Alexius Hartmann
                                 is a strategic Product Designer from Denmark with a focus on user research.
                                 He designs joyful experiences with heart. His latest obsession is improving

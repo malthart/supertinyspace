@@ -22,14 +22,21 @@ export default function Home() {
                                 foundations and streamlining work between designer and developer.</p>
                         </div>
                         <Link href="/gallery/experiments">
-                            <div className="flex flex-col bg-[#EAE7E1] p-4 border border-[#D2CFCA] rounded-2xl gap-3">
+                            <div className="flex flex-col bg-[#EAE7E1] p-4 border border-[#D2CFCA] rounded-2xl gap-3 mb-4">
                                 <img src="/imagery/supertiny_potion.png" className="w-[28px]"></img>
                                 <div>
-                                    <p className="text-stone-800 text-[16px] font-semibold leading-[150%]">Experiments</p>
+                                    <p className="text-stone-800 text-[16px] font-semibold leading-[150%]">Alchemy</p>
                                     <p className="text-stone-800 text-[14px] leading-[150%]">I test out hypothesis, UI & graphics in here</p>
                                 </div>
                             </div>
                         </Link>
+                        <div className="flex flex-col bg-[#EAE7E1] p-4 border border-[#D2CFCA] rounded-2xl gap-3">
+                            <img src="/imagery/supertiny_bolt.png" className="w-[28px]"></img>
+                            <div>
+                                <p className="text-stone-800 text-[16px] font-semibold leading-[150%]">Tinkering</p>
+                                <Link href="/programming/layering"><p className="text-stone-800 text-[14px] leading-[150%] hover:underline">Layering images to create depth</p></Link>
+                            </div>
+                        </div>
                     </div>
                 </div >
 

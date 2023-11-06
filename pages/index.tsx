@@ -34,7 +34,10 @@ export default function Home() {
                             <img src="/imagery/supertiny_bolt.png" className="w-[28px]"></img>
                             <div>
                                 <p className="text-stone-800 text-[16px] font-semibold leading-[150%]">Tinkering</p>
-                                <Link href="/programming/layering"><p className="text-stone-800 text-[14px] leading-[150%] hover:underline">Layering images to create depth</p></Link>
+                                <Link target="_blank" href="/programming/layering"><p className="text-stone-800 text-[14px] leading-[150%] hover:underline">Layering images to create depth</p></Link>
+                                <Link target="_blank" href="https://nextjswithloops.com/templates/splash"><p className="text-stone-800 text-[14px] leading-[150%] hover:underline">nextjswithloops template: Splash</p></Link>
+                                <Link target="_blank" href="https://nextjswithloops.com/templates/zinc"><p className="text-stone-800 text-[14px] leading-[150%] hover:underline">nextjswithloops template: Zinc</p></Link>
+                                <Link target="_blank" href="https://nextjswithloops.com/templates/flowerpot"><p className="text-stone-800 text-[14px] leading-[150%] hover:underline">nextjswithloops template: Flowerpot</p></Link>
                             </div>
                         </div>
                     </div>

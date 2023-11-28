@@ -45,7 +45,6 @@ export default function Home() {
                     <img className="rounded-xl" src="/experiments/buoydeck.gif" alt="" />
                     <img className="rounded-xl" src="/experiments/female_invest_card.webp" alt="" />
                     <img className="rounded-xl" src="/experiments/female_invest_stock.webp" alt="" />
-
                 </div>
 
             </div>

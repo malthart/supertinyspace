@@ -74,7 +74,7 @@ export default function Home() {
                         </div>
                         <img className="rounded-xl" src="/lunar/lunar_ipo_radar.webp" alt="" />
                         <span className="bottom-2 left-2 right-2 object-center pointer-events-none absolute z-50 rounded-md bg-white/50 backdrop-blur-lg px-2 py-1 text-xs font-medium text-white opacity-0 group-hover:opacity-100 shadow-sm transition-all duration-300">
-                            The IPO Radar came from "how might we levarage Lunar Invest above that of just being a place to buy and sell stock".
+                            The IPO Radar came from: how might we levarage Lunar Invest above that of just being a place to buy and sell stock?
                         </span>
                     </div>
                     <div className="group relative appearance-none">

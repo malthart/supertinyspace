@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const Layering = () => {
+const Layers = () => {
     return (
         <div className="relative w-[100%]">
             <div className="relative h-[90vh] sm:h-[100vh] overflow-hidden transition-all duration-1000">
@@ -29,4 +29,4 @@ const Layering = () => {
     )
 };
 
-export default Layering;
+export default Layers;

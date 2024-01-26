@@ -1,11 +1,11 @@
 import { Inter } from 'next/font/google'
-import Layering from '@/components/layering'
 import { motion, AnimatePresence } from 'framer-motion';
-import Bottomnav from '@/components/bottomnav';
+import Bottomnav from '@/pages/programming/layering/bottomnav';
+import Layers from '@/pages/programming/layering/layers';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Layering() {
     return (
         <AnimatePresence>
             <motion.div
@@ -15,7 +15,7 @@ export default function Home() {
             >
                 <main className="min-h-screen scroll-smooth">
                     <Bottomnav />
-                    <Layering />
+                    <Layers />
                 </main >
             </motion.div>
         </AnimatePresence>

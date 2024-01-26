@@ -46,41 +46,6 @@ export default function Home() {
                             </div>
                         </div>
 
-                        {/* <div className="flex">
-                            <div>
-                                <p className="font-medium text-sm mb-3">Activities</p>
-                            </div>
-                        </div>
-
-                        <div className="flex flex-col gap-2 mb-12">
-                            <div className="flex-row justify-between gap-6 grid grid-cols-2 col-span-3 sm:grid-cols-3">
-                                <div className="flex flex-col">
-                                    <p className="text-sm">User Research</p>
-                                    <p className="font-medium transition-all duration-500">Google Meet/Lookback</p>
-                                </div>
-                                <div className="flex flex-col">
-                                    <p className="text-sm">Analysis</p>
-                                    <p className="font-medium transition-all duration-500">Thematic Analysis/Dovetail</p>
-                                </div>
-                                <div className="flex flex-col">
-                                    <p className="text-sm">Product Analytics</p>
-                                    <p className="font-medium transition-all duration-500">Critical User Flows</p>
-                                </div>
-                                <div className="flex flex-col">
-                                    <p className="text-sm">Design</p>
-                                    <p className="font-medium transition-all duration-500">Paper/Figma/Figjam</p>
-                                </div>
-                                <div className="flex flex-col">
-                                    <p className="text-sm">Visualization</p>
-                                    <p className="font-medium transition-all duration-500">Sticky Notes</p>
-                                </div>
-                                <div className="flex flex-col">
-                                    <p className="text-sm">Play</p>
-                                    <p className="font-medium transition-all duration-500">Workshop Facilitation</p>
-                                </div>
-                            </div>
-                        </div> */}
-
                         <div className="flex">
                             <div>
                                 <p className="font-medium text-sm mb-3">Work</p>
@@ -149,24 +114,6 @@ export default function Home() {
                             </Link>
                         </div >
 
-                        {/* <div className="flex">
-                            <div>
-                                <p className="font-medium text-sm mb-3">Creatives (Non-affilated)</p>
-                            </div>
-                        </div>
-
-                        <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 lg:grid-cols-2 place-items-left gap-4 transition-all">
-                            <img className="rounded-xl" src="/experiments/lil_poo.webp" alt="" />
-                            <video autoPlay muted loop className="rounded-xl min-h-[600px] h-auto object-cover" src="/experiments/golden_mass.webm" />
-                            <img className="rounded-xl" src="/experiments/linkedin_saved_post_web.webp" alt="" />
-                            <img className="rounded-xl" src="/experiments/3d_interface_braille.webp" alt="" />
-                            <img className="rounded-xl" src="/experiments/mobilepay_suggestions_home.webp" alt="" />
-                            <img className="rounded-xl" src="/experiments/rise_cards.webp" alt="" />
-                            <video autoPlay muted loop className="rounded-xl min-h-[600px] h-auto object-cover" src="/experiments/birdie3d.webm" />
-                            <img className="rounded-xl" src="/experiments/buoydeck.gif" alt="" />
-                            <img className="rounded-xl" src="/experiments/female_invest_card.webp" alt="" />
-                            <img className="rounded-xl" src="/experiments/female_invest_stock.webp" alt="" />
-                        </div> */}
 
                     </div>
                 </div>

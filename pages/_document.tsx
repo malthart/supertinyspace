@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <title>
+        <title>
           Malthe Alexius Hartmann
         </title>
         <meta
@@ -14,9 +14,11 @@ export default function Document() {
         />
         <meta property="og:image" content="" />
       </Head>
-      <body className="bg-gray-50">
-        <Main />
-        <NextScript />
+      <body className="antialiased bg-gray-50">
+        <div vaul-drawer-wrapper="" className="bg-[#FAFAFA] min-h-[100vh]">
+          <Main />
+          <NextScript />
+        </div>
       </body>
     </Html>
   )

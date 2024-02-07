@@ -1,15 +1,19 @@
 "use client";
 
+import Parea from "@/public/projects/parea";
 import { Drawer } from "vaul";
 
 export function PareaDrawer() {
     return (
         <Drawer.Root shouldScaleBackground>
             <Drawer.Trigger asChild>
-                <p className="-mx-3 flex flex-col rounded-md px-3 py-3 cursor-pointer">
-                    <span>Parea</span>
-                    <span className="text-gray-1100">Padel tennis app built with SwiftUI</span>
-                </p>
+                <div className="bg-black text-white flex flex-col rounded-md px-3 py-3 cursor-pointer h-[183px] justify-between">
+                    <div className="flex flex-row gap-2 items-center">
+                        <Parea />
+                        <span>Parea</span>
+                    </div>
+                    <span className="text-gray-1100 text-sm">Padel tennis app built with SwiftUI</span>
+                </div>
             </Drawer.Trigger>
             <Drawer.Portal>
                 <Drawer.Overlay className="fixed inset-0 bg-black/40" />

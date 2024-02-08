@@ -136,8 +136,7 @@ export default function NewsLetterSignUp() {
                 <>
                     <div className="mt-6 w-full cursor-default">
                         <form autoComplete="off" onSubmit={handleSubmit} className="bg-white items-center flex flex-row border p-1.5 focus-within:outline-1 w-full rounded-lg">
-                            <span className="text-xs w-full flex-grow-2 h-full p-2 placeholder:text-zinc-400 text-black focus:outline-none outline-none focus:border-none">✅ You&apos;ve been added to my mailing list.</span>
-                            <SignUpFormButton />
+                            <span className="text-xs w-full flex-grow-2 h-full p-2 py-3 placeholder:text-zinc-400 text-black focus:outline-none outline-none focus:border-none">✅ You&apos;ve been added to my mailing list.</span>
                         </form>
                     </div>
                 </>

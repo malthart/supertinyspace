@@ -56,6 +56,12 @@ export function PareaDrawer() {
                                 <img className="rounded" src="/projects/parea_amenities.webp" />
                                 <small className="text-stone-500">Ameneties include, but not limited to: WiFi, Showers, Lockers</small>
                             </div>
+                            <div className="text-stone-800 font-medium mb-6">
+                                <p className="font-semibold">JTBD</p>
+                                <p className="text-stone-800 mb-6">Users don&apos;t hire Parea to provide a map over local padel courts.
+                                    They hire Parea to spend more time playing padel.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </Drawer.Content>

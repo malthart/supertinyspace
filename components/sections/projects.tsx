@@ -2,6 +2,7 @@
 
 import { LunarDrawer } from "@/components/drawers/lunardrawer";
 import { PareaDrawer } from "@/components/drawers/pareadrawer";
+import { RiseDrawer } from "@/components/drawers/risedrawer";
 
 export function ProjectsSection() {
     return (
@@ -13,6 +14,9 @@ export function ProjectsSection() {
                 </span>
                 <span className="block text-gray-1100">
                     <LunarDrawer />
+                </span>
+                <span className="block text-gray-1100">
+                    <RiseDrawer />
                 </span>
             </div>
         </div>

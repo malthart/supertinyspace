@@ -62,6 +62,9 @@ export function PareaDrawer() {
                                     They hire Parea to spend more time playing padel.
                                 </p>
                             </div>
+                            <div className="text-stone-800 font-medium mb-6">
+                                <p className="font-semibold">Solution</p>
+                            </div>
                         </div>
                     </div>
                 </Drawer.Content>
